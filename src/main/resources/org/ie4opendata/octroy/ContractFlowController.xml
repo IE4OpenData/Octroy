@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Licensed under the APL-2.0 -->
+   
+<flowControllerDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <implementationName>org.ie4opendata.octroy.ContractFlowController</implementationName>
+  <processingResourceMetaData>
+    <name>ContractFlowController</name>
+    <description/>
+    <version>1.0</version>
+    <vendor>IE4OpenData</vendor>
+    <capabilities>
+      <capability>
+	<inputs>
+	  <type>org.ie4opendata.octroy.DocumentAnnotation</type>
+	  <feature>org.ie4opendata.octroy.DocumentAnnotation:process</feature>
+	  <feature>org.ie4opendata.octroy.DocumentAnnotation:classified</feature>
+	</inputs>
+	<outputs/>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>false</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </processingResourceMetaData>
+</flowControllerDescription>

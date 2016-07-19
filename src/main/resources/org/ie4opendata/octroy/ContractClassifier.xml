@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Licensed under APL-2.0 -->
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>
+  <annotatorImplementationName>org.ie4opendata.octroy.ContractClassifier</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>ContractClassifier</name>
+    <description></description>
+    <version>${pom.version}</version>
+    <vendor>IE4OpenData</vendor>
+    <configurationParameters>
+      <configurationParameter>
+	<name>model</name>
+	<type>String</type>
+	<multiValued>false</multiValued>
+	<mandatory>true</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+	<name>model</name>
+	<value>
+	  <string>contract-doccat.bin</string>
+	</value>
+      </nameValuePair>
+    </configurationParameterSettings>
+
+    <typeSystemDescription>
+      <imports>
+	<import name="org.ie4opendata.octroy.octroy_types" />
+      </imports>
+    </typeSystemDescription>
+		
+    <capabilities>
+      <capability>
+	<inputs>
+	  <type>org.ie4opendata.octroy.DocumentAnnotation</type>
+	</inputs>
+	<outputs>
+	  <type>org.ie4opendata.octroy.DocumentAnnotation</type>
+	  <feature>org.ie4opendata.octroy.DocumentAnnotation:process</feature>
+	  <feature>org.ie4opendata.octroy.DocumentAnnotation:classified</feature>
+	</outputs>
+	<languagesSupported>
+	  <language>fr</language>
+	</languagesSupported>
+      </capability>
+    </capabilities>
+  </analysisEngineMetaData>
+  
+  <externalResourceDependencies/>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

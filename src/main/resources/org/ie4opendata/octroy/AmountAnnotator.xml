@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Licensed under APL-2.0 -->
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>
+  <annotatorImplementationName>org.ie4opendata.octroy.AmountAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>AmountAnnotator</name>
+    <description></description>
+    <version>${pom.version}</version>
+    <vendor>IE4OpenData</vendor>
+    <configurationParameters/>
+    <configurationParameterSettings/>
+
+    <typeSystemDescription>
+      <imports>
+	<import name="org.ie4opendata.octroy.octroy_types" />
+      </imports>
+    </typeSystemDescription>
+		
+    <capabilities>
+      <capability>
+	<inputs/>
+	<outputs>
+	  <type>org.ie4opendata.octroy.Amount</type>
+	  <feature>org.ie4opendata.octroy.Amount:dollarValue</feature>
+	</outputs>
+	<languagesSupported>
+	  <language>fr</language>
+	</languagesSupported>
+      </capability>
+    </capabilities>
+  </analysisEngineMetaData>
+  
+  <externalResourceDependencies/>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>
