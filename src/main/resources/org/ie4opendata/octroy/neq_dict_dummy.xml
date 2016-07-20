@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synonym>
+<token canonical="MICHELINE CARDINAL" neq="2264662992">
+  <variant base="MICHELINE CARDINAL"/>
+</token>
+<token canonical="6801161" neq="1164580798">
+  <variant base="6801161"/>
+  <variant base="BÉTON ESTAMPE LATOURELLE &amp; FILS"/>
+  <variant base="PRESTIGIA"/>
+  <variant base="6801161 CANADA INC."/>
+</token>
+<token canonical="SERVICES MÉCANIQUES L.G. INC." neq="1165676454">
+  <variant base="SERVICES MÉCANIQUES L.G. INC."/>
+</token>
+<token canonical="9202-3258 QUÉBEC INC." neq="1165466435">
+  <variant base="9202-3258 QUÉBEC INC."/>
+  <variant base="SERVICES DE NETTOYAGES N. F."/>
+</token>
+<token canonical="CENTRE D'ARCHERIE DE BÉCANCOUR (STE-GERTRUDE) INC." neq="1148662290">
+  <variant base="CENTRE D'ARCHERIE DE BÉCANCOUR (STE-GERTRUDE) INC."/>
+  <variant base="9079-0080 QUÉBEC INC."/>
+  <variant base="FERME HYLHANDER"/>
+</token>
+<token canonical="PIÈCES D'AUTOS ACTION C.O.R.E. INC." neq="1149649197">
+  <variant base="PIÈCES D'AUTOS ACTION C.O.R.E. INC."/>
+  <variant base="ACTION C.O.R.E. AUTO PARTS INC."/>
+</token>
+<token canonical="Château Patricia" neq="1167850339">
+  <variant base="Château Patricia"/>
+  <variant base="Le Paradis des Ainés inc."/>
+</token>
+<token canonical="L'entreprise360" neq="3369005973">
+  <variant base="L'entreprise360"/>
+</token>
+<token canonical="9035-3673 QUÉBEC INC." neq="1145824679">
+  <variant base="9035-3673 QUÉBEC INC."/>
+</token>
+<token canonical="SN PRO-NET" neq="2267024570">
+  <variant base="SN PRO-NET"/>
+</token>
+<token canonical="ENTRETIEN PAYSAGER D.G" neq="3362731625">
+  <variant base="ENTRETIEN PAYSAGER D.G"/>
+</token>
+<token canonical="ABD" neq="2248666978">
+  <variant base="ABD"/>
+</token>
+<token canonical="138 GÉNÉRAL" neq="2269922912">
+  <variant base="138 GÉNÉRAL"/>
+  <variant base="138 GENERAL"/>
+  <variant base="FITNESS DES FEMMES MOHAWK"/>
+  <variant base="MOHAWK WOMEN'S FITNESS"/>
+</token>
+<token canonical="TRANSPORTS G.F. ENR." neq="1143479997">
+  <variant base="TRANSPORTS G.F. ENR."/>
+  <variant base="2952-2463 QUÉBEC INC."/>
+</token>
+<token canonical="9118-3103 QUÉBEC INC." neq="1160898194">
+  <variant base="9118-3103 QUÉBEC INC."/>
+</token>
+<token canonical="LES PROS DU REVÊTEMENT INC." neq="1140201758">
+  <variant base="LES PROS DU REVÊTEMENT INC."/>
+</token>
+<token canonical="9254-8684 QUÉBEC INC." neq="1167834044">
+  <variant base="9254-8684 QUÉBEC INC."/>
+</token>
+<token canonical="CANTINE CHEZ MARIE ENR." neq="2240290462">
+  <variant base="CANTINE CHEZ MARIE ENR."/>
+</token>
+<token canonical="PIZZA FOREST" neq="1162971254">
+  <variant base="PIZZA FOREST"/>
+  <variant base="9155-6290 QUÉBEC INC."/>
+</token>
+<token canonical="CENTRE DE RENDEZ-VOUS SANTE (SENC)" neq="3344517969">
+  <variant base="CENTRE DE RENDEZ-VOUS SANTE (SENC)"/>
+</token>
+<token canonical="TOUR DESSIN (TMA282337)" neq="1142613711">
+  <variant base="TOUR DESSIN (TMA282337)"/>
+  <variant base="DYNAFLITE &amp; DESIGN (TMA465904)"/>
+  <variant base="NAHANNI (TMA411698)"/>
+  <variant base="HEAT0AIRES (TMA286432)"/>
+  <variant base="DYNAFLITE (TMA370019)"/>
+  <variant base="MASTERS' (TMA288492)"/>
+  <variant base="EXER-SIZER (TMA297413)"/>
+  <variant base="HERCULES &amp; DESIGN (TMA306969)"/>
+  <variant base="LE GANT PARIS DU CANADA LTEE"/>
+  <variant base="PARIS GLOVE OF CANADA LTD."/>
+  <variant base="AUCLAIR NAHANNI EXPERIENCE &amp; DESIGN (TMA411371)"/>
+  <variant base="AQUA STOP (TMA704621)"/>
+  <variant base="MANIAGO SPORTS (TMA583321)"/>
+  <variant base="GANTERIE AUCLAIR"/>
+  <variant base="DURA-DEXX DESSIN (TMA406338)"/>
+  <variant base="PARIS DESIGN (TMA473266)"/>
+  <variant base="HOT TIPS (TMA344335)"/>
+  <variant base="DRITEX (TMA715477)"/>
+  <variant base="LAURENTIDE (TMA639186)"/>
+  <variant base="CUP-TROPHY &amp; DESIGN (TMA291669)"/>
+  <variant base="AQUASTOP &amp; DESIGN (TMA704620)"/>
+  <variant base="THE MASTERS' GLOVE &amp; DESIGN (TMA152579)"/>
+  <variant base="LIFE/STYLE (TMA288492)"/>
+  <variant base="PARIS &amp; DESIGN (TMA325127)"/>
+  <variant base="TWO MOON DESIGN (TMA625644)"/>
+  <variant base="DRY-TECH (TMA435472)"/>
+  <variant base="THE GLITT (TMA167717)"/>
+  <variant base="FORCE 10 (TMA503018)"/>
+  <variant base="AUCLAIR (TMA453027)"/>
+  <variant base="KIPSKIN (TMA312501)"/>
+  <variant base="THE TOTAL GLOVE (TMA287576)"/>
+  <variant base="PRESTIGE (TMA649781)"/>
+  <variant base="IG-LOO (TMA150396)"/>
+</token>
+<token canonical="NETTOYEUR THIERRY ENR." neq="2240688665">
+  <variant base="NETTOYEUR THIERRY ENR."/>
+</token>
+<token canonical="GÉNITIQUE LMB INC." neq="1149079312">
+  <variant base="GÉNITIQUE LMB INC."/>
+  <variant base="LE GROUPE GÉNITIQUE INC."/>
+  <variant base="LE GROUPE GÉNITIQUE INC."/>
+  <variant base="LMB SAGUENAY LAC ST-JEAN"/>
+  <variant base="EG21 INC."/>
+  <variant base="LMB SAGUENAY LAC ST-JEAN INC."/>
+</token>
+<token canonical="168126 CANADA INC." neq="1143645241">
+  <variant base="168126 CANADA INC."/>
+</token>
+<token canonical="PIPOSA" neq="2260212651">
+  <variant base="PIPOSA"/>
+  <variant base="PIPO ANIMATION"/>
+</token>
+<token canonical="CENTRE DE DEBOSSELAGE LUCIEN MONTPETIT INC." neq="1142939009">
+  <variant base="CENTRE DE DEBOSSELAGE LUCIEN MONTPETIT INC."/>
+</token>
+<token canonical="LES ATELIERS RALPH" neq="2262168562">
+  <variant base="LES ATELIERS RALPH"/>
+</token>
+<token canonical="CHAMPLAIN PIZZA" neq="2263957088">
+  <variant base="CHAMPLAIN PIZZA"/>
+</token>
+<token canonical="Inspiration Manon Tremblay" neq="2268721851">
+  <variant base="Inspiration Manon Tremblay"/>
+  <variant base="Décor inspiré"/>
+</token>
+<token canonical="GESTION ACTION 500 INC." neq="1166320516">
+  <variant base="GESTION ACTION 500 INC."/>
+</token>
+<token canonical="Maison Wickenden" neq="2271110787">
+  <variant base="Maison Wickenden"/>
+</token>
+<token canonical="STEVE ROSS DESIGN" neq="1168467455">
+  <variant base="STEVE ROSS DESIGN"/>
+  <variant base="9267-5081 Québec inc."/>
+</token>
+<token canonical="CHARCUTERIE ET PATISSERIE LE PAPILLON BLANC ENR." neq="2245678695">
+  <variant base="CHARCUTERIE ET PATISSERIE LE PAPILLON BLANC ENR."/>
+</token>
+<token canonical="TECHNOLOGIE TANDEM INC." neq="1149365745">
+  <variant base="TECHNOLOGIE TANDEM INC."/>
+  <variant base="TANDEM TECHNOLOGY INC."/>
+</token>
+<token canonical="2756-1059 QUÉBEC INC." neq="1142498022">
+  <variant base="2756-1059 QUÉBEC INC."/>
+</token>
+<token canonical="LES ENTREPRISES AUSE INC." neq="1160679875">
+  <variant base="LES ENTREPRISES AUSE INC."/>
+</token>
+<token canonical="4444744 Canada inc." neq="1164687155">
+  <variant base="4444744 Canada inc."/>
+  <variant base="TRANSPORT KADIMA INC."/>
+  <variant base="KADIMA TRANSPORT INC."/>
+</token>
+<token canonical="CLIK MÉDIA" neq="2241299983">
+  <variant base="CLIK MÉDIA"/>
+  <variant base="Clik Média"/>
+  <variant base="CLIK MÉDIA"/>
+  <variant base="Archives ARTE"/>
+  <variant base="Archiv'ART"/>
+</token>
+<token canonical="LILAS TRANSPORT" neq="1164062904">
+  <variant base="LILAS TRANSPORT"/>
+  <variant base="TRANSPORT LILAS"/>
+  <variant base="9175-5975 QUÉBEC INC."/>
+</token>
+<token canonical="Kontinuum inc." neq="1167199802">
+  <variant base="Kontinuum inc."/>
+  <variant base="Kontinuum inc."/>
+</token>
+<token canonical="PROGERES INC." neq="1171786628">
+  <variant base="PROGERES INC."/>
+</token>
+<token canonical="ROCK NADEAU" neq="2266642034">
+  <variant base="ROCK NADEAU"/>
+</token>
+<token canonical="VIE SOCIALE" neq="2270858337">
+  <variant base="VIE SOCIALE"/>
+  <variant base="SOCIAL LIFE"/>
+</token>
+<token canonical="CHARLIEGO INC." neq="1168080803">
+  <variant base="CHARLIEGO INC."/>
+</token>
+<token canonical="ANNIE METCALFE SERVICES COMPTABLES" neq="2266852211">
+  <variant base="ANNIE METCALFE SERVICES COMPTABLES"/>
+  <variant base="COMPTABLE PME"/>
+</token>
+<token canonical="RÉSIDENCE DES OLIVIERS ENR." neq="3346139317">
+  <variant base="RÉSIDENCE DES OLIVIERS ENR."/>
+  <variant base="RÉSIDENCE TI-COEUR"/>
+  <variant base="RÉSIDENCES DES OLIVIERS"/>
+</token>
+<token canonical="ESSE ACHE ENR." neq="2247136353">
+  <variant base="ESSE ACHE ENR."/>
+</token>
+<token canonical="ON PREND SOINS" neq="3364834823">
+  <variant base="ON PREND SOINS"/>
+  <variant base="ON PREND SOINS (O.P.S.)"/>
+  <variant base="ON PREND SOINS"/>
+  <variant base="MAGAZINE"/>
+  <variant base="VOTREBELLEHISTOIRE.CA"/>
+  <variant base="VOTRE BELLE HISTOIRE"/>
+</token>
+<token canonical="GESTION M.F.G." neq="3341668666">
+  <variant base="GESTION M.F.G."/>
+</token>
+<token canonical="RAINVILLE COMMUNICATION SANS FIL INC." neq="1162494430">
+  <variant base="RAINVILLE COMMUNICATION SANS FIL INC."/>
+</token>
+<token canonical="LA RÉGIONALE ÉNERGIE OPCO" neq="1166229006">
+  <variant base="LA RÉGIONALE ÉNERGIE OPCO"/>
+  <variant base="REGIONAL POWER OPCO INC."/>
+</token>
+<token canonical="BIJOUX EN CRISTALS ERBN" neq="2241271651">
+  <variant base="BIJOUX EN CRISTALS ERBN"/>
+  <variant base="SECURE - X"/>
+  <variant base="DISTRIBUTIONS MONDILES"/>
+  <variant base="LES ALARMES SECURE-X"/>
+</token>
+<token canonical="LAURA ELKES" neq="2249282379">
+  <variant base="LAURA ELKES"/>
+  <variant base="MARK ELKES"/>
+  <variant base="LE GITE L.M."/>
+</token>
+<token canonical="P.B. BANQUET INC." neq="1168357938">
+  <variant base="P.B. BANQUET INC."/>
+</token>
+<token canonical="ENTREPRISE LLK SAUNA" neq="2249214935">
+  <variant base="ENTREPRISE LLK SAUNA"/>
+  <variant base="CONSTRUCTION LÉONARD DE VINCI"/>
+  <variant base="LLK"/>
+  <variant base="SAUNA"/>
+  <variant base="RÉNOVATION LINKID"/>
+  <variant base="RÉNOVATION 911"/>
+</token>
+<token canonical="SALON DE COIFFURE TEC-HAIR" neq="2246087334">
+  <variant base="SALON DE COIFFURE TEC-HAIR"/>
+</token>
+<token canonical="Carmine Faraone Consultant Inc." neq="1170908173">
+  <variant base="Carmine Faraone Consultant Inc."/>
+  <variant base="Carmine Faraone Consulting Inc."/>
+</token>
+<token canonical="AAAAAAAAAA CLAN PANNETON" neq="2241673278">
+  <variant base="AAAAAAAAAA CLAN PANNETON"/>
+  <variant base="A A A A A A A A A A A A A A A CLAN PANNETON"/>
+  <variant base="A1 CLAN PANNETON"/>
+  <variant base="A CLAN PANNETON"/>
+  <variant base="1A CLAN PANNETON"/>
+  <variant base="A A A A A A A A A A CLAN PANNETON"/>
+  <variant base="LES ENTREPRISES P.J.C. ENR."/>
+</token>
+<token canonical="PATRICIA LEMELIN DENTISTE INC." neq="1166091364">
+  <variant base="PATRICIA LEMELIN DENTISTE INC."/>
+</token>
+<token canonical="RADIO LOCALE DE DISRAËLI" neq="1149203433">
+  <variant base="RADIO LOCALE DE DISRAËLI"/>
+</token>
+<token canonical="VÊTEMENTS L'ASSOMPTION" neq="1144076222">
+  <variant base="VÊTEMENTS L'ASSOMPTION"/>
+  <variant base="VÊTEMENTS L'ASSOMPTION INC."/>
+  <variant base="AUBAINES L'ASSOMPTION INC."/>
+</token>
+<token canonical="VENTURACOM INC." neq="1141242165">
+  <variant base="VENTURACOM INC."/>
+  <variant base="9010-6121 QUÉBEC INC."/>
+</token>
+<token canonical="M.S. IMMOBILIER" neq="3349708191">
+  <variant base="M.S. IMMOBILIER"/>
+</token>
+<token canonical="ALLIANCE COMBUSTION INC." neq="1149121775">
+  <variant base="ALLIANCE COMBUSTION INC."/>
+</token>
+<token canonical="GESTION DES FAUBOURGS INC." neq="1161457537">
+  <variant base="GESTION DES FAUBOURGS INC."/>
+</token>
+<token canonical="Rochette Management" neq="1171258776">
+  <variant base="Rochette Management"/>
+  <variant base="9329-2274 Québec inc."/>
+</token>
+<token canonical="MIROIR COUTURE" neq="2262524269">
+  <variant base="MIROIR COUTURE"/>
+</token>
+<token canonical="9270-8023 Québec inc." neq="1168616614">
+  <variant base="9270-8023 Québec inc."/>
+</token>
+<token canonical="Créations MickaLeeCo inc." neq="1168660638">
+  <variant base="Créations MickaLeeCo inc."/>
+</token>
+<token canonical="AT &amp; T CAPITAL CANADA INC. VEHICULE LEASING" neq="1143336940">
+  <variant base="AT &amp; T CAPITAL CANADA INC. VEHICULE LEASING"/>
+  <variant base="GESTION/LOCATION DE VEHICULES AT&amp;T CAPITAL CANADA INC."/>
+  <variant base="SAT&amp;T CAPITAL CANADA INC. MANAGEMENT VEHICLE LEASING"/>
+  <variant base="AT &amp; T CAPITAL CANADA INC."/>
+  <variant base="AT&amp;T CAPITAL CANADA, INC."/>
+  <variant base="AT&amp;T CAPITAL CANADA"/>
+</token>
+<token canonical="BEAUTÉ D'AGLAÉE" neq="2249697659">
+  <variant base="BEAUTÉ D'AGLAÉE"/>
+</token>
+<token canonical="Ebenor Percussion" neq="2270382908">
+  <variant base="Ebenor Percussion"/>
+</token>
+<token canonical="THE DRAGON'S EYES" neq="2262809553">
+  <variant base="THE DRAGON'S EYES"/>
+  <variant base="L'OEIL DES DRAGONS"/>
+</token>
+<token canonical="Degrés La boutique de montagne" neq="3366209610">
+  <variant base="Degrés La boutique de montagne"/>
+  <variant base="BOUTIQUE VAL-D'IRENE S.E.N.C."/>
+  <variant base="Degrés"/>
+  <variant base="BOUTIQUE VAL-D'IRENE"/>
+</token>
+<token canonical="RAYMOND DESROSIERS INC." neq="1143626324">
+  <variant base="RAYMOND DESROSIERS INC."/>
+</token>
+<token canonical="AGATHE" neq="2265217283">
+  <variant base="AGATHE"/>
+  <variant base="AGATHE DESIGN"/>
+  <variant base="AGATHE ROY"/>
+</token>
+<token canonical="GESTION PATRICIA MURACA INC." neq="1168328327">
+  <variant base="GESTION PATRICIA MURACA INC."/>
+</token>
+<token canonical="JASON TRANSPORTATION LTD." neq="1161805297">
+  <variant base="JASON TRANSPORTATION LTD."/>
+  <variant base="TRANSPORTATION DU JASON LTÉE"/>
+</token>
+<token canonical="RENE LEVASSEUR (1990) INC." neq="1142305060">
+  <variant base="RENE LEVASSEUR (1990) INC."/>
+</token>
+<token canonical="RESTAURANT DU CAP" neq="3348372551">
+  <variant base="RESTAURANT DU CAP"/>
+</token>
+<token canonical="ME BENOIT ARCHAMBAULT" neq="2249958036">
+  <variant base="ME BENOIT ARCHAMBAULT"/>
+</token>
+<token canonical="ENTREPRISE THÉRÈSE PIMPARÉ" neq="2249348493">
+  <variant base="ENTREPRISE THÉRÈSE PIMPARÉ"/>
+</token>
+<token canonical="ENTREPRISES CASTELGAR INC." neq="1143189349">
+  <variant base="ENTREPRISES CASTELGAR INC."/>
+</token>
+<token canonical="GESTION HOKIS INC." neq="1163473334">
+  <variant base="GESTION HOKIS INC."/>
+</token>
+<token canonical="9267-6121 Québec inc." neq="1168474014">
+  <variant base="9267-6121 Québec inc."/>
+  <variant base="CRÉATIONS TRÉSOR"/>
+</token>
+<token canonical="611494 N.B. INC." neq="1162205224">
+  <variant base="611494 N.B. INC."/>
+</token>
+<token canonical="9119-9729 QUÉBEC INC." neq="1160993433">
+  <variant base="9119-9729 QUÉBEC INC."/>
+  <variant base="9119-9729 QUÉBEC INC."/>
+</token>
+<token canonical="W. CARON ET FILS SNC" neq="3342328765">
+  <variant base="W. CARON ET FILS SNC"/>
+</token>
+<token canonical="9087-3506 QUÉBEC INC." neq="1149115488">
+  <variant base="9087-3506 QUÉBEC INC."/>
+</token>
+<token canonical="BABCOM" neq="2247718598">
+  <variant base="BABCOM"/>
+</token>
+<token canonical="L'ENCRE D'OR" neq="2241152489">
+  <variant base="L'ENCRE D'OR"/>
+  <variant base="L'ANNUAIRE SPORTIF"/>
+  <variant base="L'INFORMATION JEUNESSE SECOURS"/>
+  <variant base="LE DÉCROCHEUR RÉGIONAL"/>
+  <variant base="LE BOTTIN DE L'AGE D'OR"/>
+  <variant base="LE JOURNAL PRÉVENTION DROGUE"/>
+  <variant base="L'INDEX DES AINÉS"/>
+</token>
+<token canonical="LES CONSTRUCTIONS JEAN-JACQUES BINETTE INC." neq="1141933011">
+  <variant base="LES CONSTRUCTIONS JEAN-JACQUES BINETTE INC."/>
+</token>
+<token canonical="PRÊTS 9-1-1" neq="2240305237">
+  <variant base="PRÊTS 9-1-1"/>
+</token>
+<token canonical="COIFFURE MARTINE" neq="2263189096">
+  <variant base="COIFFURE MARTINE"/>
+</token>
+<token canonical="9000-6156 QUÉBEC INC." neq="1140053977">
+  <variant base="9000-6156 QUÉBEC INC."/>
+</token>
+<token canonical="CASSE-CROÛTE BUD'S" neq="2248710271">
+  <variant base="CASSE-CROÛTE BUD'S"/>
+  <variant base="LES ENTREPRISES R'D"/>
+  <variant base="CASSE CROUTE BUD"/>
+  <variant base="LES ENTREPRISES FORESTIERES R D"/>
+</token>
+<token canonical="LA FIDUCIE DALGLEISH" neq="3361700175">
+  <variant base="LA FIDUCIE DALGLEISH"/>
+  <variant base="THE DALGLEISH TRUST"/>
+</token>
+<token canonical="2872315 CANADA INC." neq="1143381904">
+  <variant base="2872315 CANADA INC."/>
+  <variant base="LA GALERIE LALLOUZ-WATTERSON INC."/>
+  <variant base="LALLOUZ-WATTERSON GALLERY INC."/>
+</token>
+<token canonical="9293-9164 Québec inc." neq="1169717593">
+  <variant base="9293-9164 Québec inc."/>
+  <variant base="DÉPANNEUR K.I.K."/>
+</token>
+<token canonical="COGÉNA ENR." neq="2246901039">
+  <variant base="COGÉNA ENR."/>
+  <variant base="COGENA"/>
+</token>
+<token canonical="DISTRIBUTION PÉDRO" neq="2247656418">
+  <variant base="DISTRIBUTION PÉDRO"/>
+</token>
+<token canonical="COMPLEXE MULTIFONCTIONNEL CHAUDIÈRE-APPALACHES" neq="1149585029">
+  <variant base="COMPLEXE MULTIFONCTIONNEL CHAUDIÈRE-APPALACHES"/>
+</token>
+<token canonical="RESTAURANT RELAIS DU NORD" neq="1145682713">
+  <variant base="RESTAURANT RELAIS DU NORD"/>
+  <variant base="LES ENTREPRISES CLAUDE QUEVILLON LTEE"/>
+  <variant base="RELAIS DU NORD ENR."/>
+</token>
+<token canonical="7914377 Canada Inc." neq="1167524025">
+  <variant base="7914377 Canada Inc."/>
+</token>
+<token canonical="2947-4723 QUÉBEC INC." neq="1145287356">
+  <variant base="2947-4723 QUÉBEC INC."/>
+</token>
+<token canonical="RICHARD TRANSPORT ENRG." neq="2246150454">
+  <variant base="RICHARD TRANSPORT ENRG."/>
+</token>
+<token canonical="DISTRIBUTION I. MAGID INC." neq="1162932363">
+  <variant base="DISTRIBUTION I. MAGID INC."/>
+  <variant base="I. MAGID DISTRIBUTION INC."/>
+  <variant base="4295587 CANADA INC."/>
+</token>
+<token canonical="GUIDE S.T.A.T." neq="2244499077">
+  <variant base="GUIDE S.T.A.T."/>
+  <variant base="LE GUIDE S.T.A.T."/>
+</token>
+<token canonical="TRANSPORT P.M. DROUIN" neq="1160117892">
+  <variant base="TRANSPORT P.M. DROUIN"/>
+  <variant base="9104-4412 QUÉBEC INC."/>
+</token>
+<token canonical="RÉPARATION COMPAKT INC." neq="1163076459">
+  <variant base="RÉPARATION COMPAKT INC."/>
+</token>
+<token canonical="9156-5051 QUÉBEC INC." neq="1160159233">
+  <variant base="9156-5051 QUÉBEC INC."/>
+  <variant base="LES CONSEILLERS EN AVANTAGES SOCIAUX SAGE OUTAOUAIS INC."/>
+</token>
+<token canonical="B.M. EMPLOIS INC." neq="1162314232">
+  <variant base="B.M. EMPLOIS INC."/>
+  <variant base="B.M. WORKS INC."/>
+</token>
+<token canonical="LE CENTRE GÉNÉRATION SANTÉ INC." neq="1147182217">
+  <variant base="LE CENTRE GÉNÉRATION SANTÉ INC."/>
+</token>
+<token canonical="6219985 CANADA INC." neq="1162188669">
+  <variant base="6219985 CANADA INC."/>
+</token>
+<token canonical="LORD INVESTMENTS" neq="1166114901">
+  <variant base="LORD INVESTMENTS"/>
+  <variant base="9213-9187 QUÉBEC INC."/>
+  <variant base="LORD INVESTISSEMENTS"/>
+</token>
+<token canonical="CRESTPOINT REAL ESTATE INVESTMENTS LTD." neq="1167318717">
+  <variant base="CRESTPOINT REAL ESTATE INVESTMENTS LTD."/>
+  <variant base="INVESTISSEMENTS IMMOBILIERS CRESTPOINT"/>
+</token>
+<token canonical="BOUTIQUE VICTORIA LITZ" neq="3349194145">
+  <variant base="BOUTIQUE VICTORIA LITZ"/>
+</token>
+<token canonical="9294-9890 Québec inc." neq="1169772259">
+  <variant base="9294-9890 Québec inc."/>
+  <variant base="Entretien Mémagé Anick"/>
+  <variant base="Entretien Ménager Anick"/>
+</token>
+<token canonical="CALFEUTRAGE M.C.L." neq="3347648639">
+  <variant base="CALFEUTRAGE M.C.L."/>
+</token>
+<token canonical="9134-8748 QUÉBEC INC." neq="1161820742">
+  <variant base="9134-8748 QUÉBEC INC."/>
+</token>
+<token canonical="DISTRIBUTION PAT" neq="1167698399">
+  <variant base="DISTRIBUTION PAT"/>
+  <variant base="9251-9586 QUÉBEC INC."/>
+</token>
+<token canonical="Saucier + Perrotte Architectes S.E.N.C." neq="3343818897">
+  <variant base="Saucier + Perrotte Architectes S.E.N.C."/>
+</token>
+<token canonical="INFORMATIQUE CC" neq="2247231808">
+  <variant base="INFORMATIQUE CC"/>
+</token>
+<token canonical="LES ENTREPRISES E Z PLUG INC." neq="1166097957">
+  <variant base="LES ENTREPRISES E Z PLUG INC."/>
+  <variant base="E Z PLUG ENTERPRISE INC."/>
+</token>
+<token canonical="9077-9646 QUÉBEC INC." neq="1148593529">
+  <variant base="9077-9646 QUÉBEC INC."/>
+  <variant base="LA PETIT ARDOISE"/>
+</token>
+<token canonical="EURALITÉ" neq="2261488953">
+  <variant base="EURALITÉ"/>
+  <variant base="I. MARTINS"/>
+</token>
+<token canonical="Produits Forestiers D.M.B." neq="1170251327">
+  <variant base="Produits Forestiers D.M.B."/>
+  <variant base="D.M.B. Forest Products"/>
+  <variant base="9307-4268 Québec inc."/>
+  <variant base="Produits Forestiers DMB"/>
+</token>
+<token canonical="CONFECTION RICHER" neq="3345117868">
+  <variant base="CONFECTION RICHER"/>
+</token>
+<token canonical="LÉVEILLÉ, BARIL ENTREPRENEUR ÉLECTRICIEN INC." neq="1164247398">
+  <variant base="LÉVEILLÉ, BARIL ENTREPRENEUR ÉLECTRICIEN INC."/>
+</token>
+<token canonical="ÉBÉNISTERIE BENJAMIN MONETTE" neq="2266062035">
+  <variant base="ÉBÉNISTERIE BENJAMIN MONETTE"/>
+  <variant base="BENJAMIN MONETTE"/>
+</token>
+<token canonical="MAURICE BOUCHARD HOMME A TOUT FAIRE" neq="2248657381">
+  <variant base="MAURICE BOUCHARD HOMME A TOUT FAIRE"/>
+</token>
+<token canonical="SAIKO 3199" neq="3349060080">
+  <variant base="SAIKO 3199"/>
+</token>
+<token canonical="garderie éducative télétabise" neq="1169636850">
+  <variant base="garderie éducative télétabise"/>
+  <variant base="9292-0131 Québec inc."/>
+</token>
+<token canonical="9037-8688 QUÉBEC INC." neq="1145946365">
+  <variant base="9037-8688 QUÉBEC INC."/>
+  <variant base="RESTO LE MATCH"/>
+</token>
+<token canonical="1333851 ONTARIO LIMITED" neq="1149282361">
+  <variant base="1333851 ONTARIO LIMITED"/>
+  <variant base="1333851 ONTARIO LIMITÉE"/>
+</token>
+<token canonical="LES VIANDES DU MONT" neq="1143138205">
+  <variant base="LES VIANDES DU MONT"/>
+  <variant base="2533-7296 QUÉBEC INC."/>
+</token>
+<token canonical="TRANSPORT OLSA LTÉE" neq="1165262966">
+  <variant base="TRANSPORT OLSA LTÉE"/>
+  <variant base="OLSA TRANSPORT LTD."/>
+</token>
+<token canonical="3100-9012 QUÉBEC INC." neq="1143192327">
+  <variant base="3100-9012 QUÉBEC INC."/>
+  <variant base="V.I.P. VIDÉO"/>
+</token>
+<token canonical="9282-3459 Québec inc." neq="1169153328">
+  <variant base="9282-3459 Québec inc."/>
+</token>
+<token canonical="SOPHIE ALLOUL MÉDICAL INC." neq="1166971292">
+  <variant base="SOPHIE ALLOUL MÉDICAL INC."/>
+  <variant base="SOPHIE ALLOUL MEDICAL INC."/>
+</token>
+<token canonical="SOLUTIONS ZAMBON INC." neq="1165546947">
+  <variant base="SOLUTIONS ZAMBON INC."/>
+  <variant base="ZAMBON SOLUTIONS INC."/>
+  <variant base="9203-8843 QUÉBEC INC."/>
+</token>
+<token canonical="COMP-ART INFO INC." neq="1144155794">
+  <variant base="COMP-ART INFO INC."/>
+</token>
+<token canonical="BOUTIQUE OCÉAN ENR." neq="2240735938">
+  <variant base="BOUTIQUE OCÉAN ENR."/>
+</token>
+<token canonical="FRANKY AUTO" neq="1161046298">
+  <variant base="FRANKY AUTO"/>
+  <variant base="9120-9924 QUÉBEC INC."/>
+</token>
+<token canonical="LABORATOIRE CASAVANT INC." neq="1142816314">
+  <variant base="LABORATOIRE CASAVANT INC."/>
+  <variant base="MAXIME CASAVANT D.D. INC."/>
+</token>
+<token canonical="S.E.C. LE 350" neq="3366354093">
+  <variant base="S.E.C. LE 350"/>
+  <variant base="LE 350, SOCIÉTÉ EN COMMANDITE"/>
+  <variant base="LE 350, S.E.C."/>
+</token>
+<token canonical="LES INVESTISSEMENTS A.H." neq="2247171764">
+  <variant base="LES INVESTISSEMENTS A.H."/>
+</token>
+<token canonical="9157-0739 QUÉBEC INC." neq="1163046288">
+  <variant base="9157-0739 QUÉBEC INC."/>
+</token>
+<token canonical="VANCOUVER PLUS" neq="1149230865">
+  <variant base="VANCOUVER PLUS"/>
+  <variant base="3697291 CANADA INC."/>
+</token>
+<token canonical="MINI-MOTO SHERBROOKE" neq="2248848121">
+  <variant base="MINI-MOTO SHERBROOKE"/>
+  <variant base="S.P.N. TRANSPORT COURRIER"/>
+  <variant base="S.P.N. TRANSPORT"/>
+</token>
+<token canonical="9044-2385 QUÉBEC INC." neq="1146356630">
+  <variant base="9044-2385 QUÉBEC INC."/>
+</token>
+<token canonical="MACHINE À COUDRE WEST ISLAND" neq="2249208218">
+  <variant base="MACHINE À COUDRE WEST ISLAND"/>
+</token>
+<token canonical="2840-1636 QUEBEC INC." neq="1142101212">
+  <variant base="2840-1636 QUEBEC INC."/>
+</token>
+<token canonical="PCK SERVICES INFORMATIQUE" neq="1165479065">
+  <variant base="PCK SERVICES INFORMATIQUE"/>
+  <variant base="PCK SERVICES"/>
+  <variant base="SERVICES PCK"/>
+  <variant base="9202-5832 QUÉBEC INC."/>
+</token>
+<token canonical="LA CORPORATION DE DÉVELOPPEMENT SUNLAND INC." neq="1144037364">
+  <variant base="LA CORPORATION DE DÉVELOPPEMENT SUNLAND INC."/>
+  <variant base="SUNLAND DEVELOPMENT CORPORATION INC."/>
+  <variant base="LA CORPORATION DE DÉVELOPPEMENT SUNLAND"/>
+  <variant base="SUNLAND DEVELOPMENT CORPORATION"/>
+</token>
+<token canonical="DOLLAR KING EST" neq="1140083214">
+  <variant base="DOLLAR KING EST"/>
+  <variant base="DOLLAR WINDSOR"/>
+  <variant base="3105-0495 QUÉBEC INC."/>
+  <variant base="DOLLAR &amp;&amp; STE-FOY"/>
+  <variant base="DOLLAR KING OUEST"/>
+  <variant base="DOLLAR DUNANT"/>
+  <variant base="DOLLAR KING MAGOG"/>
+  <variant base="DEKO CHANDELLES DISTR."/>
+</token>
+<token canonical="Inspection thermique Québec inc." neq="1168271188">
+  <variant base="Inspection thermique Québec inc."/>
+</token>
+<token canonical="FUSION INFO." neq="3348088280">
+  <variant base="FUSION INFO."/>
+</token>
+<token canonical="GROUPE SYMAC LSJ" neq="1169075075">
+  <variant base="GROUPE SYMAC LSJ"/>
+  <variant base="GROUPE SYMAC SAINT-BRUNO"/>
+  <variant base="SYMAC"/>
+  <variant base="GROUPE SYMAC NORMANDIN"/>
+  <variant base="9280-7775 Québec inc."/>
+</token>
+<token canonical="NETTOYEUR GATINEAU CLEANERS" neq="2244967784">
+  <variant base="NETTOYEUR GATINEAU CLEANERS"/>
+  <variant base="NETTOYEUR GATINEAU"/>
+</token>
+<token canonical="COOPÉRATIVE DE TRAVAIL TOUFADI DU QUÉBEC - CTTQ" neq="1171043525">
+  <variant base="COOPÉRATIVE DE TRAVAIL TOUFADI DU QUÉBEC - CTTQ"/>
+</token>
+<token canonical="LA TECHNOLOGIE VERT KM INC." neq="1165421323">
+  <variant base="LA TECHNOLOGIE VERT KM INC."/>
+  <variant base="KM GREEN TECHNOLOGY INC."/>
+</token>
+<token canonical="SALON D'ESTHÉTIQUE YAEL" neq="2249362593">
+  <variant base="SALON D'ESTHÉTIQUE YAEL"/>
+</token>
+<token canonical="BELPHI SOLUTIONS INC." neq="1166647066">
+  <variant base="BELPHI SOLUTIONS INC."/>
+  <variant base="SOLUTIONS BELPHI INC."/>
+  <variant base="BELPHI SOLUTIONS INC."/>
+</token>
+<token canonical="SERVICES CONSEILS AP" neq="2265843187">
+  <variant base="SERVICES CONSEILS AP"/>
+</token>
+<token canonical="RESORTS VACATION INTERNATIONAL" neq="2247095922">
+  <variant base="RESORTS VACATION INTERNATIONAL"/>
+  <variant base="RÉSIDENCES DE VACANCES INTERNATIONALES"/>
+  <variant base="R.V.I."/>
+</token>
+<token canonical="LE GROUPE DES ENTREPRISES AGO" neq="1165293615">
+  <variant base="LE GROUPE DES ENTREPRISES AGO"/>
+  <variant base="LE GROUPE AGO INC."/>
+  <variant base="AGO GROUP INC."/>
+  <variant base="AGO DIGITAL MEDIA"/>
+  <variant base="LE SITE LETSAGO"/>
+  <variant base="LE GROUPE DES ENTRIPRISES AGO"/>
+  <variant base="LETSAGO"/>
+  <variant base="ENTREPRISE LETSAGO"/>
+  <variant base="LES MÉDIAS AGO"/>
+  <variant base="AGO GROUP OF COMPANIES"/>
+</token>
+<token canonical="HILLINGER &amp; HUOT INC." neq="1147670898">
+  <variant base="HILLINGER &amp; HUOT INC."/>
+  <variant base="HILLINGER &amp; GAGNON INC."/>
+  <variant base="GESTION HILLINGER INC."/>
+</token>
+<token canonical="LES ENTREPRISES PERFECTIO INC." neq="1141074329">
+  <variant base="LES ENTREPRISES PERFECTIO INC."/>
+</token>
+<token canonical="GESTION BOVINIA" neq="1165129520">
+  <variant base="GESTION BOVINIA"/>
+  <variant base="BOVINIA HOLDINGS"/>
+  <variant base="9196-2621 QUÉBEC INC."/>
+</token>
+<token canonical="LA VILLE DE BARVILLE" neq="8813433412">
+  <variant base="LA VILLE DE BARVILLE"/>
+</token>
+<token canonical="LANCECO" neq="1142441451">
+  <variant base="LANCECO"/>
+  <variant base="LES GESTIONS LANCECO LTÉE"/>
+  <variant base="LANCECO HOLDINGS LTD"/>
+</token>
+<token canonical="L'ARÉNA DES CANADIENS INC." neq="1141749409">
+  <variant base="L'ARÉNA DES CANADIENS INC."/>
+</token>
+<token canonical="GESTION GIANDOR INC." neq="1145924222">
+  <variant base="GESTION GIANDOR INC."/>
+</token>
+<token canonical="9114-9054 QUÉBEC INC." neq="1160702891">
+  <variant base="9114-9054 QUÉBEC INC."/>
+  <variant base="CROISSANT ET MICHE"/>
+</token>
+<token canonical="MUNICIPALITÉ DE LA PAROISSE DE SAINT-AUGUSTIN-DE-WOBURN" neq="8813436902">
+  <variant base="MUNICIPALITÉ DE LA PAROISSE DE SAINT-AUGUSTIN-DE-WOBURN"/>
+</token>
+<token canonical="ENTREPRISE N. FAUCHER" neq="2260317260">
+  <variant base="ENTREPRISE N. FAUCHER"/>
+</token>
+<token canonical="CONSTRUCTION JOLIVAR INC." neq="1141933516">
+  <variant base="CONSTRUCTION JOLIVAR INC."/>
+</token>
+<token canonical="HEADSPACE" neq="2247958129">
+  <variant base="HEADSPACE"/>
+  <variant base="SPACEHEAD"/>
+  <variant base="SILVER MONKEY MUSIC"/>
+  <variant base="MUSIQUE SINGE D'ARGENT"/>
+</token>
+<token canonical="D1-TEK INC." neq="1161707592">
+  <variant base="D1-TEK INC."/>
+</token>
+<token canonical="9148-2240 QUÉBEC INC." neq="1162577234">
+  <variant base="9148-2240 QUÉBEC INC."/>
+</token>
+<token canonical="LES ASSOCIÉS MANDELKER LTÉE" neq="1141863044">
+  <variant base="LES ASSOCIÉS MANDELKER LTÉE"/>
+</token>
+<token canonical="RESTAURANT LE PIC" neq="2242532101">
+  <variant base="RESTAURANT LE PIC"/>
+</token>
+<token canonical="6810403 CANADA INC." neq="1166338443">
+  <variant base="6810403 CANADA INC."/>
+  <variant base="LILY CAFÉ"/>
+  <variant base="COUNTRY CORNER"/>
+  <variant base="AU COIN CAMPAGNARD"/>
+</token>
+<token canonical="PRO-VITRE ENG" neq="2241657586">
+  <variant base="PRO-VITRE ENG"/>
+</token>
+<token canonical="9144-3614 QUÉBEC INC." neq="1162354949">
+  <variant base="9144-3614 QUÉBEC INC."/>
+</token>
+<token canonical="GROUPE CAYER-JCB INC." neq="1146220455">
+  <variant base="GROUPE CAYER-JCB INC."/>
+  <variant base="CAYER-JCB GROUP INC."/>
+</token>
+<token canonical="Association des Créatifs Culturels du Québec" neq="3370950670">
+  <variant base="Association des Créatifs Culturels du Québec"/>
+  <variant base="The Association of Cultural Creatives Québec"/>
+</token>
+<token canonical="BRIGITTE NADEAU ENR." neq="2241080441">
+  <variant base="BRIGITTE NADEAU ENR."/>
+</token>
+<token canonical="GARDERIE PITCHOUNETTE, S.E.N.C." neq="3364485972">
+  <variant base="GARDERIE PITCHOUNETTE, S.E.N.C."/>
+  <variant base="GARDERIE PITCHOUNETTE, S.E.N.C."/>
+</token>
+<token canonical="CENTRE DE LIQUIDATION EXPRESS" neq="2263100713">
+  <variant base="CENTRE DE LIQUIDATION EXPRESS"/>
+  <variant base="SURPLUS D'ARMEE CHERTSEY"/>
+</token>
+<token canonical="9020-1914 QUÉBEC INC." neq="1144603769">
+  <variant base="9020-1914 QUÉBEC INC."/>
+</token>
+<token canonical="COOPÉRATIVE D'ÉGOÛT ST-LAMBERT (RUE DES ÉRABLES)" neq="1148942247">
+  <variant base="COOPÉRATIVE D'ÉGOÛT ST-LAMBERT (RUE DES ÉRABLES)"/>
+</token>
+<token canonical="FOX FLEETS INTERNATIONALS" neq="2262308127">
+  <variant base="FOX FLEETS INTERNATIONALS"/>
+</token>
+<token canonical="Mouchetées des  Années 70 s.e.n.c." neq="3370915343">
+  <variant base="Mouchetées des  Années 70 s.e.n.c."/>
+  <variant base="Brookies of the70's g.p."/>
+</token>
+<token canonical="Complexe Amqui inc." neq="1169501716">
+  <variant base="Complexe Amqui inc."/>
+</token>
+<token canonical="CHEZ VÉRO" neq="2260818465">
+  <variant base="CHEZ VÉRO"/>
+</token>
+<token canonical="PURE TRANSPORT" neq="1147744701">
+  <variant base="PURE TRANSPORT"/>
+  <variant base="9064-2174 QUÉBEC INC."/>
+  <variant base="PUR TRANSPORT"/>
+</token>
+<token canonical="LES CONSULTATIONS MICHEL POULIN" neq="2244713949">
+  <variant base="LES CONSULTATIONS MICHEL POULIN"/>
+</token>
+<token canonical="NOÉMIE BERNIER, AC" neq="2262470869">
+  <variant base="NOÉMIE BERNIER, AC"/>
+</token>
+<token canonical="SECRÉTARIAT TEXTU-ELLE" neq="2260318409">
+  <variant base="SECRÉTARIAT TEXTU-ELLE"/>
+</token>
+<token canonical="BARTHOLD ET COMPLICES TRAITEUR S.E.N.C." neq="3362036504">
+  <variant base="BARTHOLD ET COMPLICES TRAITEUR S.E.N.C."/>
+  <variant base="BARTHOLD ET COMPLICES CATERING G.P."/>
+  <variant base="AUX PLATEAUX EXPRESS"/>
+  <variant base="LES BALUCHONS DE SABINE S.E.N.C."/>
+</token>
+<token canonical="9001-2048 QUÉBEC INC." neq="1140079105">
+  <variant base="9001-2048 QUÉBEC INC."/>
+  <variant base="8049467 CANADA INC."/>
+</token>
+<token canonical="CONNEXION CASOLA" neq="1162635073">
+  <variant base="CONNEXION CASOLA"/>
+  <variant base="9149-3437 QUÉBEC INC."/>
+  <variant base="CONNEXION CASA OLA"/>
+</token>
+<token canonical="INVESTISSEMENTS B.D.M. INC." neq="1144163921">
+  <variant base="INVESTISSEMENTS B.D.M. INC."/>
+</token>
+<token canonical="LES ATELIERS THANGOR" neq="2249795362">
+  <variant base="LES ATELIERS THANGOR"/>
+</token>
+<token canonical="LE PERMANENT DRUMMONDVILLE ENR." neq="2240636268">
+  <variant base="LE PERMANENT DRUMMONDVILLE ENR."/>
+  <variant base="ROYAL LEPAGE DRUMMONDVILLE"/>
+</token>
+<token canonical="CONSULTATION DUROTEX INC." neq="1162512512">
+  <variant base="CONSULTATION DUROTEX INC."/>
+  <variant base="DUROTEX CONSULTING INC."/>
+</token>
+<token canonical="HUTTE DE NOEUD" neq="2266611245">
+  <variant base="HUTTE DE NOEUD"/>
+  <variant base="KNOT-HUT"/>
+  <variant base="MOBILE STEAMER"/>
+</token>
+<token canonical="ABSCA TECHNOLOGIES" neq="2246410890">
+  <variant base="ABSCA TECHNOLOGIES"/>
+</token>
+<token canonical="FIDUCIE FAMILIALE ROBERT OUIMET JR" neq="3361463527">
+  <variant base="FIDUCIE FAMILIALE ROBERT OUIMET JR"/>
+  <variant base="FIDUCIE FAMILIALE JEAN-ROBERT OUIMET"/>
+</token>
+<token canonical="CENTRE CULTUREL ABOUBAKER" neq="3362626809">
+  <variant base="CENTRE CULTUREL ABOUBAKER"/>
+</token>
+<token canonical="9215-7825 QUÉBEC INC." neq="1166213232">
+  <variant base="9215-7825 QUÉBEC INC."/>
+  <variant base="RESTO-BORD DU LAC"/>
+</token>
+<token canonical="Syndicat des copropriétaires de la Promenade Gibson - Phase I - Unités 288 à 294" neq="1171500722">
+  <variant base="Syndicat des copropriétaires de la Promenade Gibson - Phase I - Unités 288 à 294"/>
+</token>
+<token canonical="PLACEMENTS NATHALIE BISSONNETTE INC." neq="1144079150">
+  <variant base="PLACEMENTS NATHALIE BISSONNETTE INC."/>
+</token>
+<token canonical="MINI CANTINE L.C. ENR." neq="3346711123">
+  <variant base="MINI CANTINE L.C. ENR."/>
+</token>
+<token canonical="Oxilium Inc." neq="1165400244">
+  <variant base="Oxilium Inc."/>
+  <variant base="6992102 CANADA INC."/>
+  <variant base="Groupe Oxilium"/>
+</token>
+<token canonical="DÉNEIGEMENT BUDGET" neq="3347127022">
+  <variant base="DÉNEIGEMENT BUDGET"/>
+</token>
+<token canonical="COMMUNAUTÉ MÉTIS DU PLATEAU D'ADSTOCK" neq="3361430526">
+  <variant base="COMMUNAUTÉ MÉTIS DU PLATEAU D'ADSTOCK"/>
+  <variant base="COMMUNAUTÉ MÉTIS DE LA HAUTE-BÉCANCOUR"/>
+  <variant base="COMMUNAUTÉ MÉTIS DE L'AMIANTE"/>
+  <variant base="SECRETARIAT DE LA NATION METIS AU QUEBEC - COMMUNAUTE METIS DU PLATEAU D'ADSTOCK"/>
+  <variant base="COMMUNAUTÉ MÉTIS DE LA HAUTE-ST-FRANÇOIS"/>
+  <variant base="COMMUNAUTÉ MÉTIS DE THETFORD MINES"/>
+</token>
+<token canonical="LES INDUSTRIES PUNCH INC." neq="1148475537">
+  <variant base="LES INDUSTRIES PUNCH INC."/>
+</token>
+<token canonical="9050-4259 QUÉBEC INC." neq="1146810149">
+  <variant base="9050-4259 QUÉBEC INC."/>
+</token>
+<token canonical="PLOMBERIE PRÉFAB INC." neq="1142716951">
+  <variant base="PLOMBERIE PRÉFAB INC."/>
+</token>
+<token canonical="FLEURISTE MISTASSINI INC." neq="1141884545">
+  <variant base="FLEURISTE MISTASSINI INC."/>
+</token>
+<token canonical="ELIO PHOTO STUDIO" neq="2246443511">
+  <variant base="ELIO PHOTO STUDIO"/>
+</token>
+<token canonical="BAR L'AMAZONE 2000 G.L." neq="2248974653">
+  <variant base="BAR L'AMAZONE 2000 G.L."/>
+</token>
+<token canonical="9185-4026 QUÉBEC INC." neq="1164591928">
+  <variant base="9185-4026 QUÉBEC INC."/>
+  <variant base="RESTAURANT FERME ROUGE"/>
+</token>
+<token canonical="SOCIÉTÉ MONTRÉALAISE D'ONTOLOGIE INC." neq="1142479493">
+  <variant base="SOCIÉTÉ MONTRÉALAISE D'ONTOLOGIE INC."/>
+  <variant base="Boldairpur inc."/>
+  <variant base="SOCIÉTÉ MONTRÉALAISE D'ONTOLOGIE INC."/>
+  <variant base="Boldairpur"/>
+  <variant base="SMO"/>
+</token>
+<token canonical="9343-0247 Québec inc." neq="1171926125">
+  <variant base="9343-0247 Québec inc."/>
+</token>
+<token canonical="STUDIO D'ESTHÉTIQUE SYLVIE GODBOUT INC." neq="1164711039">
+  <variant base="STUDIO D'ESTHÉTIQUE SYLVIE GODBOUT INC."/>
+</token>
+<token canonical="STUDIO BODY PIERCING CLASSIQUE" neq="3364262553">
+  <variant base="STUDIO BODY PIERCING CLASSIQUE"/>
+</token>
+<token canonical="2330-8463 QUÉBEC INC." neq="1144027746">
+  <variant base="2330-8463 QUÉBEC INC."/>
+</token>
+<token canonical="N.H. RÉNOVATION INC." neq="1161384434">
+  <variant base="N.H. RÉNOVATION INC."/>
+</token>
+<token canonical="DÉCO CENTRE RESSOURCES" neq="1144181295">
+  <variant base="DÉCO CENTRE RESSOURCES"/>
+  <variant base="LES TEXTILES LÉTOURNEAU (1988) INC."/>
+  <variant base="LÉTOURNEAU DISTRIBUTEUR"/>
+</token>
+<token canonical="SYNERMA INC." neq="1160759131">
+  <variant base="SYNERMA INC."/>
+</token>
+<token canonical="CLUB ENDURO QUÉBEC" neq="1166709254">
+  <variant base="CLUB ENDURO QUÉBEC"/>
+</token>
+<token canonical="VÊTEMENTS 7 CHANCEUX" neq="1161265856">
+  <variant base="VÊTEMENTS 7 CHANCEUX"/>
+  <variant base="LUCKY SEVEN CLOTHING"/>
+  <variant base="9125-2056 QUÉBEC INC."/>
+  <variant base="VÊTEMENTS SEPT CHANCEUX"/>
+  <variant base="LUCKY 7"/>
+  <variant base="LUCKY SEVEN"/>
+  <variant base="7 CHANCEUX"/>
+  <variant base="SEPT CHANCEUX"/>
+  <variant base="LUCKY 7 CLOTHING"/>
+</token>
+<token canonical="GESTION A POINT INC. CORPO 2000" neq="1148656540">
+  <variant base="GESTION A POINT INC. CORPO 2000"/>
+  <variant base="Mariages à destination"/>
+  <variant base="GESTION À POINT INC."/>
+  <variant base="MAGAZINE CROISIÈRE"/>
+  <variant base="CORPO 2000"/>
+</token>
+<token canonical="COMPTOIR-BERNARD-CAMPEAU" neq="2245223922">
+  <variant base="COMPTOIR-BERNARD-CAMPEAU"/>
+  <variant base="KIOSQUE INDÉPENDANT BC"/>
+  <variant base="KIOSQUE BERNARD CAMPEAU"/>
+</token>
+<token canonical="JEAN DUCHARME ET ASS INC" neq="1142819672">
+  <variant base="JEAN DUCHARME ET ASS INC"/>
+</token>
+<token canonical="LOGICIELS LION" neq="2240713356">
+  <variant base="LOGICIELS LION"/>
+  <variant base="LION SOFTWARE"/>
+</token>
+<token canonical="HOCKEY MINEUR DU KAMOURASKA INC." neq="1170329586">
+  <variant base="HOCKEY MINEUR DU KAMOURASKA INC."/>
+</token>
+<token canonical="BLANCHETTE &amp; BLANCHETTE INC." neq="1142863068">
+  <variant base="BLANCHETTE &amp; BLANCHETTE INC."/>
+</token>
+<token canonical="SAXOPHONES MONTRÉAL" neq="2248689244">
+  <variant base="SAXOPHONES MONTRÉAL"/>
+</token>
+<token canonical="HOWARD DIXON ENTERPRISE" neq="2241298274">
+  <variant base="HOWARD DIXON ENTERPRISE"/>
+  <variant base="ENTREPRISE HOWARD DIXON"/>
+  <variant base="CENTRAL CLEARING HOUSE"/>
+  <variant base="CONSULTANT FINANCIER HOWARD DIXON"/>
+  <variant base="FOURNITURES D'AFFAIRES NORTH AMERICAN"/>
+  <variant base="NORTH AMERICAN BUSINESS SUPPLIES"/>
+  <variant base="HOWARD DIXON FINANCIAL CONSULTANT"/>
+</token>
+<token canonical="SAÏD KHAOUAM, PHARMACIEN INC." neq="1168208271">
+  <variant base="SAÏD KHAOUAM, PHARMACIEN INC."/>
+</token>
+<token canonical="NEW LOOK ACQUISITIONCO INC." neq="1162872320">
+  <variant base="NEW LOOK ACQUISITIONCO INC."/>
+  <variant base="LA COMPAGNIE ACQUISITIONCO NEW LOOK"/>
+</token>
+</synonym>

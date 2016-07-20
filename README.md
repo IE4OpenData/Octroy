@@ -1,2 +1,55 @@
 # Octroy
+
 Octroy Pipeline for Open Data in Quebec
+
+# Install
+
+You need Java 7 and Maven 3 installed in your system.
+
+The commands below use wget to download a dictionary file but you can download it with any web browser.
+
+Please note: the dictionary is released under its original license CC BY-NC-SA as it was obtained from
+https://www.donneesquebec.ca/recherche/fr/dataset/registre-des-entreprises
+The dictionary file is 62Mb compressed and contains 3.6M variants for enterprise names.
+
+(if you want the dictionary to be someplace else, edit ./src/main/resources/org/ie4opendata/octroy/NeqConceptMapper.xml)
+
+$ git clone https://github.com/IE4OpenData/Octroy
+$ cd Octroy
+$ wget http://duboue.net/download/neq_dict.xml.gz
+$ gzip -d neq_dict.xml.gz
+$ mv neq_dict.xml /tmp
+
+if you want to use a dummy dictionary instead:
+
+$ cp ./src/main/resources/org/ie4opendata/octroy/neq_dict_dummy.xml /tmp/neq_dict.xml
+
+# Build
+
+$ mvn compile
+
+(will download plenty of dependencies...)
+
+$ mvn package appassembler:assemble
+
+# Execute
+
+## Train the contract classifier model
+
+$ ./target/appassembler/bin/contract-trainer data/contract.training36
+
+(output goes to src/main/resources/org/ie4opendata/octroy/contract-doccat.bin)
+
+## Analyze documents
+
+$ ./target/appassembler/bin/document-analyzer
+
+set input folder to docs/dev100
+set output folder to output
+set the analysis engine XML descriptor to run to src/main/resources/org/ie4opendata/octroy/OctroyEngine.xml
+set the language to French
+
+Press run or interactive
+
+Serialized CASes with the results will be in output
+
