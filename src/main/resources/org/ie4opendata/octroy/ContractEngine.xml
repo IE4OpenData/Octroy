@@ -16,7 +16,11 @@
 	  <delegateAnalysisEngine key="AmountAnnotator">
 	    <import name="org.ie4opendata.octroy.AmountAnnotator"/>
 	  </delegateAnalysisEngine>
-	</delegateAnalysisEngineSpecifiers>
+	<delegateAnalysisEngine key="CompanyNameFinder">
+      <import name="org.ie4opendata.octroy.CompanyNameFinder"/>
+	  
+    </delegateAnalysisEngine>
+  </delegateAnalysisEngineSpecifiers>
 
 	<analysisEngineMetaData>
 	  <name>ContractEngine</name>
@@ -30,7 +34,8 @@
 	      <node>SimpleFrenchTokenAndSentenceAnnotator</node>
 	      <node>NeqConceptMapper</node>
 	      <node>AmountAnnotator</node>
-	    </fixedFlow>
+	    <node>CompanyNameFinder</node>
+      </fixedFlow>
 	  </flowConstraints>
 	  <capabilities>
 	    <capability>

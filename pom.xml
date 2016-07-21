@@ -192,7 +192,26 @@
 		<commandLineArgument>-data</commandLineArgument>
 	      </commandLineArguments>
 	    </program>
-	  </programs>
+	    <program>
+	      <mainClass>org.ie4opendata.octroy.apps.OpenNlpTrainerExtractor</mainClass>
+	      <id>opennlp-trainer-extractor</id>
+	      <commandLineArguments/>
+	    </program>
+	    <program>
+	      <mainClass>opennlp.tools.cmdline.CLI</mainClass>
+	      <id>company-trainer</id>
+	      <commandLineArguments>
+                <commandLineArgument>TokenNameFinderTrainer</commandLineArgument>
+                <commandLineArgument>-model</commandLineArgument>
+		<commandLineArgument>src/main/resources/org/ie4opendata/octroy/fr-ner-company.bin</commandLineArgument>
+		<commandLineArgument>-lang</commandLineArgument>
+		<commandLineArgument>fr</commandLineArgument>
+		<commandLineArgument>-encoding</commandLineArgument>
+		<commandLineArgument>UTF-8</commandLineArgument>
+		<commandLineArgument>-data</commandLineArgument>
+	      </commandLineArguments>
+	    </program>
+	   </programs>
 	</configuration>
       </plugin>
     </plugins>

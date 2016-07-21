@@ -53,3 +53,22 @@ Press run or interactive
 
 Serialized CASes with the results will be in output
 
+## Train the company identifier
+
+see https://opennlp.apache.org/documentation/1.6.0/manual/opennlp.html#tools.namefind.training for details.
+
+Extract the training file
+
+$ ./target/appassembler/bin/opennlp-trainer-extractor ./docs/dev36 ./data/company.training36
+
+(annotate the training file, add ' ' <START:company> ' ' and ' ' <END> ' ' around each company instance)
+
+$ ./target/appassembler/bin/company-trainer ./data/company.training36
+
+(output goes to src/main/resources/org/ie4opendata/octroy/fr-ner-company.bin)
+
+
+
+
+
+
