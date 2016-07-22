@@ -28,15 +28,14 @@ import org.cleartk.ml.jar.GenericJarClassifierFactory;
 import org.cleartk.ml.mallet.MalletCrfStringOutcomeDataWriter;
 import org.uimafit.util.JCasUtil;
 
-@TypeCapability(outputs = { "org.ie4opendata.octroy.Reason" }, inputs = { "org.ie4opendata.octroy.Token", "org.ie4opendata.octroy.Sentence",
-        "org.ie4opendata.octroy.DocumentAnnotation",
-        "org.ie4opendata.octroy.Company",
-        "org.ie4opendata.octroy.Amount" })
+@TypeCapability(outputs = { "org.ie4opendata.octroy.Reason" }, inputs = { "org.ie4opendata.octroy.Token",
+		"org.ie4opendata.octroy.Sentence", "org.ie4opendata.octroy.DocumentAnnotation",
+		"org.ie4opendata.octroy.Company", "org.ie4opendata.octroy.Amount" })
 public class ReasonAnnotator extends CleartkSequenceAnnotator<String> {
 
-	private FeatureExtractor1 extractor;
+	private FeatureExtractor1<Token> extractor;
 
-	private CleartkExtractor contextExtractor;
+	private CleartkExtractor<Token, Token> contextExtractor;
 
 	private BioChunking<Token, Reason> chunking;
 
@@ -46,17 +45,18 @@ public class ReasonAnnotator extends CleartkSequenceAnnotator<String> {
 
 		// the token feature extractor: text, char pattern (uppercase, digits,
 		// etc.), and part-of-speech
-		this.extractor = new CombinedExtractor1(new CoveredTextExtractor(),
-				new FeatureFunctionExtractor(new CoveredTextExtractor(),
-						new CharacterCategoryPatternFunction(
+		this.extractor = new CombinedExtractor1<Token>(new CoveredTextExtractor<Token>(),
+				new FeatureFunctionExtractor<Token>(new CoveredTextExtractor<Token>(),
+						new CharacterCategoryPatternFunction<Token>(
 								CharacterCategoryPatternFunction.PatternType.REPEATS_MERGED))
-				/*, new TypePathExtractor(Token.class, "pos")*/);
+		/* , new TypePathExtractor(Token.class, "pos") */);
 
 		// the context feature extractor: the features above for the 3 preceding
 		// and 3 following tokens
-		this.contextExtractor = new CleartkExtractor(Token.class, this.extractor, new Preceding(3), new Following(3));
+		this.contextExtractor = new CleartkExtractor<Token, Token>(Token.class, this.extractor, new Preceding(3),
+				new Following(3));
 
-		// the chunking definition: Tokens will be combined to form EntityLevel
+		// the chunking definition: Tokens will be combined to form Reason
 		// annotation, with labels from the "entityType" attribute so that we
 		// get B-location, I-person, etc.
 		this.chunking = new BioChunking<Token, Reason>(Token.class, Reason.class, "entityType");
@@ -75,24 +75,23 @@ public class ReasonAnnotator extends CleartkSequenceAnnotator<String> {
 				features.addAll(this.contextExtractor.extract(jCas, token));
 				featureLists.add(features);
 			}
-			// during training, convert NamedEntityMentions in the CAS into
-			// expected classifier outcomes
+			// during training, convert Reason in the CAS into expected
+			// classifier outcomes
 			if (this.isTraining()) {
 
-				// extract the gold (human annotated) NamedEntityMention
-				// annotations
-				List<Reason> entityLevel = JCasUtil.selectCovered(jCas, Reason.class, sentence);
+				// extract the gold (human annotated) Reason annotations
+				List<Reason> reasons = JCasUtil.selectCovered(jCas, Reason.class, sentence);
 
-				// convert the NamedEntityMention annotations into token-level
-				// BIO outcome labels
-				List<String> outcomes = this.chunking.createOutcomes(jCas, tokens, entityLevel);
+				// convert the Reason annotations into token-level BIO outcome
+				// labels
+				List<String> outcomes = this.chunking.createOutcomes(jCas, tokens, reasons);
 
 				// write the features and outcomes as training instances
 				this.dataWriter.write(Instances.toInstances(outcomes, featureLists));
 			}
 
 			// during classification, convert classifier outcomes into
-			// NamedEntityMentions in the CAS
+			// Reason in the CAS
 			else {
 
 				// get the predicted BIO outcome labels from the classifier
@@ -103,19 +102,19 @@ public class ReasonAnnotator extends CleartkSequenceAnnotator<String> {
 			}
 		}
 	}
-	
-    public static AnalysisEngineDescription getWriterDescription(String outputDirectory)
-            throws ResourceInitializationException {
-        return AnalysisEngineFactory.createPrimitiveDescription(ReasonAnnotator.class,
-                CleartkSequenceAnnotator.PARAM_IS_TRAINING, true, DirectoryDataWriterFactory.PARAM_OUTPUT_DIRECTORY,
-                outputDirectory, DefaultSequenceDataWriterFactory.PARAM_DATA_WRITER_CLASS_NAME,
-                MalletCrfStringOutcomeDataWriter.class);
-    }
 
-    public static AnalysisEngineDescription getClassifierDescription(String modelFileName)
-            throws ResourceInitializationException {
-        return AnalysisEngineFactory.createPrimitiveDescription(ReasonAnnotator.class,
-                GenericJarClassifierFactory.PARAM_CLASSIFIER_JAR_PATH, modelFileName);
-    }
+	public static AnalysisEngineDescription getWriterDescription(String outputDirectory)
+			throws ResourceInitializationException {
+		return AnalysisEngineFactory.createEngineDescription(ReasonAnnotator.class,
+				CleartkSequenceAnnotator.PARAM_IS_TRAINING, true, DirectoryDataWriterFactory.PARAM_OUTPUT_DIRECTORY,
+				outputDirectory, DefaultSequenceDataWriterFactory.PARAM_DATA_WRITER_CLASS_NAME,
+				MalletCrfStringOutcomeDataWriter.class);
+	}
+
+	public static AnalysisEngineDescription getClassifierDescription(String modelFileName)
+			throws ResourceInitializationException {
+		return AnalysisEngineFactory.createEngineDescription(ReasonAnnotator.class,
+				GenericJarClassifierFactory.PARAM_CLASSIFIER_JAR_PATH, modelFileName);
+	}
 
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>org.ie4opendata.octroy.ReasonTypeSystem</name>
+    <imports>
+        <import name="BasicTypeSystem"/>
+        <import name="org.ie4opendata.octroy.octroy_types"/>
+    </imports>
+    <types>
+        <typeDescription>
+            <name>org.ie4opendata.octroy.Reason.CompanyTrailing</name>
+            <description>Type defined in org.ie4opendata.octroy.Reason</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+    </types>
+</typeSystemDescription>

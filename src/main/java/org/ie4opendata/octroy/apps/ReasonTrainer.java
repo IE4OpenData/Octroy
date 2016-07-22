@@ -15,26 +15,27 @@ import org.ie4opendata.octroy.ReasonAnnotator;
  * 
  */
 public class ReasonTrainer {
-    public static void main(String[] args) throws Exception {
-        // A collection reader that reads XMIs
-        CollectionReader reader = CollectionReaderFactory.createCollectionReader(CollectionReaderFactory
-                .createDescription(XReader.class, null, XReader.PARAM_ROOT_FILE, args[0]));
+	public static void main(String[] args) throws Exception {
+		// A collection reader that reads XMIs
+		CollectionReader reader = CollectionReaderFactory.createReader(XReader.class, null, XReader.PARAM_ROOT_FILE,
+				args[0]);
 
-        // The pipeline of annotators
-        AggregateBuilder builder = new AggregateBuilder();
+		// The pipeline of annotators
+		AggregateBuilder builder = new AggregateBuilder();
 
-//        other annotators, if needed
-//        builder.add(UIMAFramework.getXMLParser().parseAnalysisEngineDescription(
-//                new XMLInputSource("src/main/resources/org/apache/opennlp/OpenNlpSentTokNerPos.xml")));
+		// other annotators, if needed
+		builder.add(UIMAFramework.getXMLParser().parseAnalysisEngineDescription(
+				new XMLInputSource("src/main/resources/org/ie4opendata/octroy/SimpleFrenchTokenAndSentenceAnnotator.xml")));
 
-        // The reason classifier annotator, configured to write training data
-        builder.add(ReasonAnnotator.getWriterDescription("train_data"));
+		// The reason classifier annotator, configured to write training data
+		builder.add(ReasonAnnotator.getWriterDescription("src/main/resources/org/ie4opendata/octroy/reason"));
 
-        // Run the pipeline of annotators on each of the CASes produced by the reader
-        SimplePipeline.runPipeline(reader, builder.createAggregateDescription());
+		// Run the pipeline of annotators on each of the CASes produced by the
+		// reader
+		SimplePipeline.runPipeline(reader, builder.createAggregateDescription());
 
-        // Train a classifier on the training data, and package it into a .jar file
-        Train.main("train_data");
-    }
+		// Train a classifier on the training data, and package it into a .jar
+		// file
+		Train.main("src/main/resources/org/ie4opendata/octroy/reason");
+	}
 }
-
