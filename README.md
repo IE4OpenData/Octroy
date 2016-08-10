@@ -67,6 +67,23 @@ $ ./target/appassembler/bin/company-trainer ./data/company.training36
 
 (output goes to src/main/resources/org/ie4opendata/octroy/fr-ner-company.bin)
 
+## Annotate documents for evaluation with Apache RuTA and training with ClearTk
+
+$ ./target/appassembler/bin/texts-to-xmis docs/dev36 data/gold36
+
+then copy the typesystem to a place the Eclipse UIMA plugins can find it easily: 
+
+$ cp ./src/main/resources/org/ie4opendata/octroy/octroy_types.xml ./TypeSystem.xml
+
+(do not commit this file)
+
+open each file under data/gold36 with the UIMA CAS Editor under Eclipse (working with Eclipse 4.3 Kepler), 
+you might need to refresh your workspace (select the project, right click > refresh).  
+
+click with the right button and under "show annotations" select Reason, Amount and Company.
+
+then use the cursor keys plus shift to select the span of the annotation to annotate, 
+press shift+enter and select the annotation from the menu (or use the quick key).
 
 
 
