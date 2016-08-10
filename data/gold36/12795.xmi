@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1040" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="126" end="148"/>
+    <octroy:Company xmi:id="26" sofa="6" begin="270" end="330"/>
+    <octroy:Company xmi:id="36" sofa="6" begin="613" end="642"/>
+    <octroy:Reason xmi:id="32" sofa="6" begin="332" end="559"/>
+    <octroy:Reason xmi:id="42" sofa="6" begin="670" end="701"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2010/193&#10;&#10;DÉBUT DES TRAVAUX – SOUMISSION «9661»&#10;RÈGLEMENT L-11084 – LOUISBOURG SBC, S.E.C.&#10;RÉSOLU À L'UNANIMITÉ:&#10;que la Direction générale soit et, par la présente, est autorisée à&#10;faire débuter par la compagnie Louisbourg SBC, s.e.c., division&#10;de Constructions Louisbourg, les travaux de construction d'une&#10;station de pompage d'égout sanitaire et d'une conduite de&#10;refoulement sur une partie des lots 1 717 258 et 3 117 131 du&#10;cadastre du Québec, prévus au règlement numéro L-11084,&#10;soumission «9661», et ce, sur réception du cautionnement;&#10;que la firme Genivar société en commandite soit autorisée à&#10;effectuer la surveillance desdits travaux, les honoraires étant&#10;calculés conformément aux dispositions de l'offre de service&#10;«OS-9009»;&#10;il est également résolu d'autoriser la firme susdite à procéder à la&#10;préparation d'un manuel de conception et à effectuer une étude de&#10;risque d'arc électrique, les honoraires étant calculés sur une base&#10;forfaitaire.&#10;(C/T: 1144050)&#10;(Réf: 26-68)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#12795"/>
+    <cas:View sofa="6" members="1 20 26 36 32 42"/>
+</xmi:XMI>

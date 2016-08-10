@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="393" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="183" end="200"/>
+    <octroy:Reason xmi:id="26" sofa="6" begin="206" end="365"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2009/1440&#10;&#10;AMÉLIORATION ET ACTUALISATION&#10;SYSTÈME D'APPLICATIONS 4D&#10;RÉSOLU À L'UNANIMITÉ:&#10;de retenir les services de la firme MLC Polytech inc. pour&#10;effectuer les travaux d'améliorations et d'actualisation afin de&#10;bénéficier de nouvelles fonctionnalités à intégrer aux applications&#10;4D du Service des finances.&#10;(C/T: 1110770)&#10;(Réf: 3-3)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#19923"/>
+    <cas:View sofa="6" members="1 20 26"/>
+</xmi:XMI>

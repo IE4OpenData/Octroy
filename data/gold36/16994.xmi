@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="829" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="220" end="252"/>
+    <octroy:Amount xmi:id="26" sofa="6" begin="267" end="278" dollarValue="0.0"/>
+    <octroy:Reason xmi:id="31" sofa="6" begin="291" end="537"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2009/8188&#10;&#10;CONTRAT - SOUMISSION «OS-ING/2009-066»&#10;BERGERON BOUTHILLIER ARCHITECTES&#10;RÉSOLU À L'UNANIMITÉ:&#10;que la soumission «OS-ING/2009-066» déposée par la firme&#10;Bergeron Bouthillier architectes au montant de 66 596,25 $,&#10;concernant les services professionnels d'architectes concernant la&#10;préparation des plans et devis pour les travaux de rénovation de la&#10;station d'eau potable Pont-Viau, phase 2, lot 7, réfection des&#10;façades de l'usine numéro 2 et ouvrages connexes de toiture, soit&#10;acceptée;&#10;que les honoraires soient calculés conformément aux dispositions&#10;de l'offre de service «OS-ING/2009-066»;&#10;que le Greffier ou la Greffière adjointe retourne les garanties qui&#10;accompagnaient la soumission non retenue.&#10;(C/T: 1134876)&#10;(Financement: L-11477-F/14043)&#10;(Réf: 10-25)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#16994"/>
+    <cas:View sofa="6" members="1 20 26 31"/>
+</xmi:XMI>

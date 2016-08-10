@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="277" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="169" end="183"/>
+    <octroy:Reason xmi:id="26" sofa="6" begin="192" end="247"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2011/3093&#10;&#10;ACTIVITÉS – ROUTE DU PATRIMOINE 2011&#10;&#10;RÉSOLU À L'UNANIMITÉ:&#10;de retenir les services de la compagnie Réseau ArtHist afin de&#10;coordonner les activités de la Route du patrimoine 2011.&#10;(C/T: 1202763)&#10;(Réf: 26-92)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#11661"/>
+    <cas:View sofa="6" members="1 20 26"/>
+</xmi:XMI>
