@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="514" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="304" end="323"/>
+    <octroy:Amount xmi:id="26" sofa="6" begin="474" end="486" dollarValue="0.0"/>
+    <octroy:Reason xmi:id="31" sofa="6" begin="381" end="451"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;CE-2009/7032&#10;&#10;RENOUVELLEMENT - CONTRAT – SOUMISSION&#10;«27419» - SOLUTIONS ZOOM INC.&#10;RÉSOLU À L'UNANIMITÉ:&#10;de renouveler, pour une période de douze (12) mois à compter du&#10;3 octobre 2009, le contrat de la soumission numéro «27419»&#10;accordé à la compagnie Solutions Zoom inc. sous l'autorité de la&#10;résolution CE-2007/8381 concernant la fourniture de chaises et&#10;fauteuils de bureau pour la Ville de Laval, et ce, au montant de&#10;186 243,75 $.&#10;(C/T: 1130906)&#10;(Réf: 1-5)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#17491"/>
+    <cas:View sofa="6" members="1 20 26 31"/>
+</xmi:XMI>
