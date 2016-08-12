@@ -1,95 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import xml.etree.ElementTree as ElementTree
-import os
-import sys
-import getopt
 '''
 Apache License 2.0
 http://www.apache.org/licenses/LICENSE-2.0.txt
-
-usage:
-chmod +x xmi_to_opennlp_converter.py
-./xmi_to_opennlp_converter.py -i <inputfile> -o <outputfile>
-
-or:
-python xmi_to_opennlp_converter.py -i data/gold36/ -o data/
-'''
-def getIOFiles():
-	inputDir = ''
-	outputDir = ''
-
-	try:
-		opts, args = getopt.getopt(sys.argv[1:],"hi:o:", ["ifile=","ofile="])
-	except getopt.GetoptError:
-		print('test.py -i <inputDir> -o <outPutDir>')
-		sys.exit(2)
-	for opt, arg in opts:
-		if opt == '-h':
-			print('test.py -i <inputDir> -o <outPutDir>')
-			sys.exit()
-		elif opt in ("-i", "--ifile"):
-			inputDir = arg
-		elif opt in ("-o", "--ofile"):
-			outputDir = arg
-
-	if not (os.path.isdir(inputDir) and os.path.isdir(outputDir)):
-		print("Los path son inválidos")
-		sys.exit()
-
-	return (inputDir, outputDir)
-
-
-if __name__ == '__main__':
-	inputDir, outputDir = getIOFiles()
-	
-
-	try:
-		fileConverted = open(os.path.join(outputDir, 'company.to.train'), 'w+')
-	except Exception as e:
-		print(e)
-		sys.exit()
-	
-	
-	tagBeginLen = len(' <START:company> ')
-	tagEndLen = len(' <END> ')
-	tagBegin = ' <START:company> '
-	tagEnd = ' <END> '
-	
-	for filename in os.listdir(os.path.join(os.getcwd(), inputDir)):
-		try:
-			if '.xmi' in filename:
-				''' indice para ir corriendo. '''
-				index = 0
-				fileToConvert = open(os.path.join(inputDir, filename), 'r+')
-				tree = ElementTree.fromstring(fileToConvert.read())
-				
-				for element in tree.findall('{http:///uima/cas.ecore}Sofa'):
-					if element.get('sofaString'):
-						''' se guarda texto en archivo '''
-						texto = element.get('sofaString')
-						break
-						
-				for element in tree.findall(r'{http:///org/ie4opendata/octroy.ecore}Company'):
-					begin = int(element.get('begin')) + index
-					texto = texto[:begin] + tagBegin + texto[begin:]					
-					end = int(element.get('end')) + tagBeginLen + index
-					texto = texto[:end] + tagEnd + texto[end:]
-					
-					index += tagBeginLen
-					index += tagEndLen
-				
-				fileConverted.write(texto.encode('utf-8', 'ignore'))
-				fileToConvert.close()
-			else:
-				continue
-		except Exception as e:
-			print(e)
-			sys.exit()
-	
-	fileConverted.close()
-	
-'''
 
                                  Apache License
                            Version 2.0, January 2004
@@ -293,3 +206,94 @@ if __name__ == '__main__':
    See the License for the specific language governing permissions and
    limitations under the License.
 '''
+
+
+
+'''
+usage:
+chmod +x xmi_to_opennlp_converter.py
+./xmi_to_opennlp_converter.py -i <inputfile> -o <outputfile>
+
+or:
+python xmi_to_opennlp_converter.py -i data/gold36/ -o data/
+'''
+
+import xml.etree.ElementTree as ElementTree
+import os
+import sys
+import getopt
+
+
+def getIOFiles():
+	inputDir = ''
+	outputDir = ''
+
+	try:
+		opts, args = getopt.getopt(sys.argv[1:],"hi:o:", ["ifile=","ofile="])
+	except getopt.GetoptError:
+		print('test.py -i <inputDir> -o <outPutDir>')
+		sys.exit(2)
+	for opt, arg in opts:
+		if opt == '-h':
+			print('test.py -i <inputDir> -o <outPutDir>')
+			sys.exit()
+		elif opt in ("-i", "--ifile"):
+			inputDir = arg
+		elif opt in ("-o", "--ofile"):
+			outputDir = arg
+
+	if not (os.path.isdir(inputDir) and os.path.isdir(outputDir)):
+		print("Los path son inválidos")
+		sys.exit()
+
+	return (inputDir, outputDir)
+
+
+if __name__ == '__main__':
+	inputDir, outputDir = getIOFiles()
+	
+
+	try:
+		fileConverted = open(os.path.join(outputDir, 'company.to.train'), 'w+')
+	except Exception as e:
+		print(e)
+		sys.exit()
+	
+	
+	tagBeginLen = len(' <START:company> ')
+	tagEndLen = len(' <END> ')
+	tagBegin = ' <START:company> '
+	tagEnd = ' <END> '
+	
+	for filename in os.listdir(os.path.join(os.getcwd(), inputDir)):
+		try:
+			if '.xmi' in filename:
+				''' indice para ir corriendo. '''
+				index = 0
+				fileToConvert = open(os.path.join(inputDir, filename), 'r+')
+				tree = ElementTree.fromstring(fileToConvert.read())
+				
+				for element in tree.findall('{http:///uima/cas.ecore}Sofa'):
+					if element.get('sofaString'):
+						''' se guarda texto en archivo '''
+						texto = element.get('sofaString')
+						break
+						
+				for element in tree.findall(r'{http:///org/ie4opendata/octroy.ecore}Company'):
+					begin = int(element.get('begin')) + index
+					texto = texto[:begin] + tagBegin + texto[begin:]					
+					end = int(element.get('end')) + tagBeginLen + index
+					texto = texto[:end] + tagEnd + texto[end:]
+					
+					index += tagBeginLen
+					index += tagEndLen
+				
+				fileConverted.write(texto.encode('utf-8', 'ignore'))
+				fileToConvert.close()
+			else:
+				continue
+		except Exception as e:
+			print(e)
+			sys.exit()
+	
+	fileConverted.close()
