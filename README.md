@@ -67,8 +67,13 @@ $ ./target/appassembler/bin/company-trainer ./data/company.training36
 
 (output goes to src/main/resources/org/ie4opendata/octroy/fr-ner-company.bin)
 
+##XMI to opennlp format
+python xmi_to_opennlp_converter.py -i data/gold36/ -o data/
+(output goes to data/company.to.train)
 
-
-
-
-
+##English sentence detection
+$ ./sentence_bash.sh
+(output goes to ./data/sentence.training36)
+## Train the company identifier
+./target/appassembler/bin/company-trainer ./data/sentence.training36
+(output goes to src/main/resources/org/ie4opendata/octroy/fr-ner-company.bin)
