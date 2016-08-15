@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="519" language="fr"/>
+    <octroy:Amount xmi:id="20" sofa="6" begin="214" end="223" dollarValue="0.0"/>
+    <octroy:Company xmi:id="25" sofa="6" begin="140" end="162"/>
+    <octroy:Reason xmi:id="31" sofa="6" begin="229" end="441"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="Subvention - Soutien financier avec convention&#10;&#10;CG           Direction générale , Direction des relations externes - 1060191001&#10;&#10;Accorder à Montréal International, pour l'année 2006, une contribution financière de 500 000 $ pour les&#10;fins du Fonds de développement international de Montréal (FODIM) et approuver un projet de convention&#10;entre la Ville et cet organisme établissant les modalités et conditions de versement de cette contribution.&#10;&#10;Territoire(s) concerné(s) :         Ensemble du territoire - Agglomération&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#1016"/>
+    <cas:View sofa="6" members="1 20 25 31"/>
+</xmi:XMI>

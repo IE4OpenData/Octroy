@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="608" language="fr"/>
+    <octroy:Amount xmi:id="20" sofa="6" begin="386" end="400" dollarValue="0.0"/>
+    <octroy:Company xmi:id="25" sofa="6" begin="174" end="205"/>
+    <octroy:Reason xmi:id="31" sofa="6" begin="206" end="310"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="Contrat de construction&#10;&#10;CM           Infrastructures / transport et environnement , Direction de la réalisation des travaux -&#10;             1074712007&#10;&#10;Accorder un contrat à Construction Arctic Béluga inc. pour l'exécution des travaux de reconstruction d'une&#10;conduite d'eau secondaire dans la rue De Lanaudière, de l'avenue du Mont-Royal à la rue Gilford, au prix&#10;total approximatif de 1 070 047,00 $, taxes incluses. Arrondissement: Plateau-Mont-Royal. (Appel&#10;d'offres # 9393 / 7 soumissionnaires).&#10;&#10;Territoire(s) concerné(s) :          Le Plateau-Mont-Royal&#10;District(s) :                        DeLorimier&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#1315"/>
+    <cas:View sofa="6" members="1 20 25 31"/>
+</xmi:XMI>

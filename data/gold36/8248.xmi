@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="505" language="fr"/>
+    <octroy:Company xmi:id="35" sofa="6" begin="118" end="150"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="241" end="273"/>
+    <octroy:Amount xmi:id="26" sofa="6" begin="288" end="300" dollarValue="0.0"/>
+    <octroy:Reason xmi:id="31" sofa="6" begin="306" end="352"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2012/3294&#10;&#10;CONTRAT – SOUMISSION «10050» – RÈGLEMENT L-11835&#10;ÉLECTRICITÉ PIERRE MARCHAND INC.&#10;&#10;RÉSOLU À L'UNANIMITÉ:&#10;d'adjuger, telle que déposée, la soumission «10050» à la&#10;compagnie Électricité Pierre Marchand inc. au montant de&#10;274 413,13 $ pour les travaux prévus au règlement numéro&#10;L-11835;&#10;que le Greffier ou la Greffière adjointe retourne les chèques ou&#10;garanties qui accompagnaient les soumissions non retenues.&#10;(C/T: 1244573)&#10;(Réf: 12-4)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#8248"/>
+    <cas:View sofa="6" members="1 35 20 26 31"/>
+</xmi:XMI>

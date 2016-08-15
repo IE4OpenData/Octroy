@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="355" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="160" end="179"/>
+    <octroy:Reason xmi:id="26" sofa="6" begin="199" end="325"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2010/8386&#10;&#10;CONTINUITÉ - FORMATION COACHING&#10;&#10;RÉSOLU À L'UNANIMITÉ:&#10;de retenir les services de la firme Davignon Management afin de&#10;poursuivre le mandat qui lui été confié sous l'autorité de la&#10;résolution CE-2006/2555 concernant la démarche de formation&#10;sur le coaching.&#10;(C/T: 1182545)&#10;(Réf: 26-18)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#13259"/>
+    <cas:View sofa="6" members="1 20 26"/>
+</xmi:XMI>

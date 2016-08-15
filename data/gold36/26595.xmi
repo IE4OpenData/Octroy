@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1238" language="fr"/>
+    <octroy:Reason xmi:id="20" sofa="6" begin="171" end="414"/>
+    <octroy:Company xmi:id="24" sofa="6" begin="484" end="504"/>
+    <octroy:Company xmi:id="30" sofa="6" begin="508" end="526"/>
+    <octroy:Company xmi:id="36" sofa="6" begin="1127" end="1145"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;CE-2007/6355&#10;&#10;AUTORISATIONS – PROJET MOP 13869&#10;LE HAUT STE-DOROTHÉE ET CADIBERGE DE LAVAL&#10;RÉSOLU À L'UNANIMITÉ:&#10;que les travaux d'égouts, d'aqueduc, de drainage, d'excavation, de&#10;fondation granulaire, de pavage, de bordures, de piste cyclable et&#10;d'éclairage par distribution souterraine dans le prolongement de la&#10;rue Étienne-Lavoie, prévus au projet MOP 13869, soient&#10;autorisés, et ce, conditionnellement à ce que les compagnies Le&#10;Haut Ste-Dorothée et Cadiberge de Laval engagent à leurs frais:&#10;-&#10;&#10;un entrepreneur spécialisé détenant un permis approprié de la&#10;Régie du bâtiment du Québec;&#10;&#10;-&#10;&#10;un arpenteur-géomètre pour effectuer le bornage requis pour la&#10;réalisation des travaux;&#10;&#10;-&#10;&#10;une firme spécialisée pour effectuer les essais d'étanchéité de&#10;l'égout sanitaire;&#10;&#10;-&#10;&#10;une firme spécialisée pour effectuer le nettoyage et les essais&#10;d'ovalisation de l'égout sanitaire;&#10;&#10;-&#10;&#10;une firme spécialisée pour effectuer les essais de pression, de&#10;curage et de désinfection du système d'aqueduc;&#10;&#10;que l'entrepreneur engagé par les requérantes soit tenu de&#10;transmettre à la firme Dessau-Soprin inc. et à la Ville de Laval&#10;une copie des rapports des firmes spécialisées susdites.&#10;(Réf: 10-2)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#26595"/>
+    <cas:View sofa="6" members="1 20 24 30 36"/>
+</xmi:XMI>

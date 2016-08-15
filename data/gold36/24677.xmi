@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="428" language="fr"/>
+    <octroy:Amount xmi:id="20" sofa="6" begin="187" end="194" dollarValue="0.0"/>
+    <octroy:Company xmi:id="31" sofa="6" begin="246" end="277"/>
+    <octroy:Reason xmi:id="37" sofa="6" begin="319" end="399"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;CE-2008/788&#10;&#10;CRÉDITS BUDGÉTAIRES - GREFFE&#10;RÉSOLU À L'UNANIMITÉ:&#10;d'approuver une dépense à même les crédits budgétaires au&#10;montant de 2 255 $ requise pour défrayer les honoraires&#10;juridiques de l'étude Dunton, Rainville, senc, encourus au 31&#10;décembre 2007 concernant divers services professionnels dans le&#10;dossier du Complexe Multi Sports de Laval.&#10;(C/T: 1071370)&#10;(Réf: 2-14)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#24677"/>
+    <cas:View sofa="6" members="1 20 31 37"/>
+</xmi:XMI>
