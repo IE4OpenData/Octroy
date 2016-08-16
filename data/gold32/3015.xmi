@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="533" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="179" end="205"/>
+    <octroy:Reason xmi:id="26" sofa="6" begin="315" end="485"/>
+    <octroy:Amount xmi:id="30" sofa="6" begin="501" end="515" dollarValue="0.0"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="Contrat d'approvisionnement et de services autres que professionnels&#10;&#10;CG           Direction générale , Direction des systèmes d'information - 1084522002&#10;&#10;Accorder à la compagnie Computer Associates (C.A.), fournisseur exclusif, via le Centre de services&#10;partagés du Québec (CSPQ), le contrat de renouvellement des services de support et d'entretien et&#10;l'achat de licences d'utilisation des produits de Computer Associates inc. (C.A.), pour la période du 1er&#10;avril 2008 au 31 mars 2011, au montant de 1 897 140,92 $, taxes incluses.&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#3015"/>
+    <cas:View sofa="6" members="1 20 26 30"/>
+</xmi:XMI>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="676" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="193" end="228"/>
+    <octroy:Reason xmi:id="26" sofa="6" begin="230" end="357"/>
+    <octroy:Amount xmi:id="30" sofa="6" begin="555" end="567" dollarValue="0.0"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="Immeuble - Location&#10;&#10;CG          Mise en valeur du territoire et du patrimoine , Direction des immeubles - 1074565006&#10;&#10;Autoriser le renouvellement du bail par lequel la Ville loue, du locateur L'Actif CLCS, Société en&#10;commandite, un espace à bureaux situé au 780, boulevard Décarie, d'une superficie de 3 942 pieds&#10;carrés pour le poste de quartier 7 du SPVM. Le terme du renouvellement est de deux ans, soit du 1er&#10;mars 2007 au 28 février 2009. Le loyer brut est de 21.58 $/pi², taxes incluses. La dépense totale pour le&#10;terme, incluant les taxes, est de 170 136.72 $. Bâtiment 3168.&#10;&#10;Territoire(s) concerné(s) :    Saint-Laurent&#10;District(s) :                  Norman-McLaren&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#1838"/>
+    <cas:View sofa="6" members="1 20 26 30"/>
+</xmi:XMI>

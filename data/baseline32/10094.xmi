@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="718" language="fr"/>
+    <octroy:Amount xmi:id="20" sofa="6" begin="460" end="472" dollarValue="0.0"/>
+    <octroy:Company xmi:id="25" sofa="6" begin="422" end="445"/>
+    <octroy:Reason xmi:id="31" sofa="6" begin="478" end="524"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2011/7362&#10;&#10;CONTRAT – SOUMISSION «9923» – RÈGLEMENT L-11586&#10;SOCOMEC INDUSTRIEL INC.&#10;&#10;RÉSOLU À L'UNANIMITÉ:&#10;que les addendas numéros 1, 2 et 3 joints au rapport préparé par le&#10;Service de l'ingénierie en date du 1er novembre 2011 soient et, par&#10;la présente, sont approuvés;&#10;que, dans le cadre de l'appel d'offres numéro «9923», la&#10;soumission déposée par la compagnie Socomec Industriel inc. au&#10;montant de 684 514,94 $ pour les travaux prévus au règlement&#10;numéro L-11586, soit et, par la présente, est acceptée;&#10;que le Greffier ou la Greffière adjointe retourne les chèques ou&#10;garanties qui accompagnaient les soumissions non retenues.&#10;(C/T: 1221539)&#10;(Réf: 12-15)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#10094"/>
+    <cas:View sofa="6" members="1 20 25 31"/>
+</xmi:XMI>

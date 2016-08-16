@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="502" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="299" end="319"/>
+    <octroy:Reason xmi:id="26" sofa="6" begin="377" end="445"/>
+    <octroy:Amount xmi:id="30" sofa="6" begin="461" end="472" dollarValue="0.0"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2012/880&#10;&#10;RENOUVELLEMENT – CONTRAT – SOUMISSION&#10;«27823» – LES ENTREPRISES OMEX&#10;&#10;RÉSOLU À L'UNANIMITÉ:&#10;de renouveler, pour la période du 1er décembre 2011 au&#10;30 novembre 2012, le contrat de la soumission numéro «27823»&#10;accordé à la compagnie Les entreprises Omex sous l'autorité de la&#10;résolution CE-2010/8295 concernant la fourniture de pièces et&#10;d'accessoires de bornes d'incendie, et ce, au montant de&#10;40 241,25 $.&#10;(C/T: 1226855)&#10;(Réf: 12-16)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#9113"/>
+    <cas:View sofa="6" members="1 20 26 30"/>
+</xmi:XMI>

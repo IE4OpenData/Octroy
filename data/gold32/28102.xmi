@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="331" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="167" end="186"/>
+    <octroy:Reason xmi:id="26" sofa="6" begin="220" end="302"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2007/778&#10;&#10;FONDS ET COLLECTIONS D'ARCHIVES PRIVÉES&#10;ÎLE JÉSUS&#10;RÉSOLU À L'UNANIMITÉ:&#10;de retenir les services de Mme Mireille Lebeau, archiviste et&#10;historienne, pour rédiger un état général des fonds et collections&#10;d'archives privées de l'Île Jésus.&#10;(C/T: 1038482)&#10;(Réf: 8-12)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#28102"/>
+    <cas:View sofa="6" members="1 20 26"/>
+</xmi:XMI>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="468" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="193" end="212"/>
+    <octroy:Reason xmi:id="26" sofa="6" begin="265" end="362"/>
+    <octroy:Amount xmi:id="30" sofa="6" begin="384" end="395" dollarValue="0.0"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="Contrat de construction&#10;&#10;CE           Saint-Léonard , Direction des travaux publics / de l'aménagement urbain et des services aux&#10;             entreprises - 1063693006&#10;&#10;Octroyer à la compagnie Chagnon (1975) Ltée, plus bas soumissionnaire conforme, un contrat pour la&#10;revitalisation de la rue Jean-Talon et le remplacement des lampadaires, contrat numéro 200-71A, au&#10;montant total de 301 704,25$, taxes incluses.&#10;&#10;Projet :                             Renouveau urbain&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#324"/>
+    <cas:View sofa="6" members="1 20 26 30"/>
+</xmi:XMI>

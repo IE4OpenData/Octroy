@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="644" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="285" end="304"/>
+    <octroy:Reason xmi:id="26" sofa="6" begin="310" end="586"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2010/4976&#10;&#10;APPROBATION DOCUMENTS D'APPEL D'OFFRES&#10;SOUMISSION «9800» - RÈGLEMENT L-11592&#10;&#10;RÉSOLU À L'UNANIMITÉ:&#10;que les clauses administratives particulières et les autres&#10;documents de la soumission «9800» préparés par la firme&#10;Équiluqs ingénierie pour les travaux d'égout sanitaire sur une&#10;partie de la voie de service sud de l'autoroute Laval (A-440) et&#10;des lots 3 283 071, 3 473 215, 3 487 065, 3 895 498, 3 895 499,&#10;3 895 500, 3 934 626 et 3 935 755 du cadastre du Québec,&#10;décrétés sous l'autorité du règlement numéro L-11592, soient et,&#10;par la présente, sont approuvés.&#10;(Réf: 10-3)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#14406"/>
+    <cas:View sofa="6" members="1 20 26"/>
+</xmi:XMI>

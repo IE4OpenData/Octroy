@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="321" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="161" end="231"/>
+    <octroy:Reason xmi:id="26" sofa="6" begin="246" end="292"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2012/1756&#10;&#10;CONTRAT – SOCIÉTÉ DE SAUVETAGE CANADIENNE&#10;«EXE-0111»&#10;&#10;RÉSOLU À L'UNANIMITÉ:&#10;d'octroyer à la Société de sauvetage canadienne (Service national&#10;des sauveteurs inc.) le contrat de formations en premiers soins&#10;pour l'année 2012.&#10;(C/T: 1238032)&#10;(Réf: 12-4)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#8311"/>
+    <cas:View sofa="6" members="1 20 26"/>
+</xmi:XMI>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="363" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="158" end="171"/>
+    <octroy:Reason xmi:id="26" sofa="6" begin="177" end="304"/>
+    <octroy:Amount xmi:id="30" sofa="6" begin="334" end="346" dollarValue="0.0"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="Contrat de construction&#10;&#10;CG              Mise en valeur du territoire et du patrimoine , Direction des immeubles - 1070660012&#10;&#10;Accorder un contrat à la firme Cosoltec inc. pour l'exécution des travaux de réfection générale de la&#10;piscine extérieure (2317) et du pavillon des baigneurs (0383) du parc Jarry - Autoriser une dépense de 1&#10;575 000,00 $ - Contrat 11638&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#1587"/>
+    <cas:View sofa="6" members="1 20 26 30"/>
+</xmi:XMI>

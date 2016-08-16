@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="470" language="fr"/>
+    <octroy:Amount xmi:id="20" sofa="6" begin="171" end="179" dollarValue="0.0"/>
+    <octroy:Reason xmi:id="25" sofa="6" begin="214" end="415"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;CE-2012/389&#10;&#10;CRÉDITS ADDITIONNELS – GREFFE&#10;&#10;RÉSOLU À L'UNANIMITÉ:&#10;d'approuver des crédits additionnels au montant de 10 000 $, plus&#10;les taxes applicables, pour défrayer les honoraires juridiques dans&#10;la cause Elie Chakieh et Hellen Christodoulou contre Ville de&#10;Laval. (re: requête introductive d'instance, Cour supérieure,&#10;district de Laval, 540-17-004312-103)&#10;(C/T: 1230955)&#10;(D/Greffe: 15-2010-MB-0594)&#10;(Réf: 2-5)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#9067"/>
+    <cas:View sofa="6" members="1 20 25"/>
+</xmi:XMI>

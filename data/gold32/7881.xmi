@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="577" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="202" end="211"/>
+    <octroy:Reason xmi:id="26" sofa="6" begin="253" end="374"/>
+    <octroy:Amount xmi:id="30" sofa="6" begin="438" end="447" dollarValue="0.0"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="Contrat de services professionnels&#10;&#10;CG           Développement et des opérations , Direction des travaux publics - 1111861004&#10;&#10;Approuver la convention et retenir les services professionnels de la firme LUQS inc., économistes de la&#10;construction, afin de soumettre une estimation détaillée des coûts réels du marché pour les projets de&#10;constructions (infrastructures urbaines), visant l'octroi d'un contrat cadre pour un montant maximal de 300&#10;000 $, taxes incluses, et pour une période n'excédant pas 24 mois (2 ans). Appel d'offres public&#10;11-11720 (1 soumissionnaire conforme)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#7881"/>
+    <cas:View sofa="6" members="1 20 26 30"/>
+</xmi:XMI>

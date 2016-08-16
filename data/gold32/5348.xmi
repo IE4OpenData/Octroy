@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="451" language="fr"/>
+    <octroy:Amount xmi:id="20" sofa="6" begin="198" end="206" dollarValue="0.0"/>
+    <octroy:Company xmi:id="25" sofa="6" begin="261" end="311"/>
+    <octroy:Reason xmi:id="31" sofa="6" begin="345" end="428"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="Subvention - Soutien financier avec convention&#10;&#10;CE           Développement et des opérations , Direction des sports - 1101278001&#10;&#10;Approuver le protocole d'entente et accorder une aide financière de 10 000 $, à même les dépenses&#10;générales d'administration, à la Société de gestion événementielle en karaté (SGEK) pour supporter&#10;l'organisation du XXIe Championnat panaméricain junior de karaté au complexe sportif Claude-Robillard&#10;du 20 au 22 août 2010&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#5348"/>
+    <cas:View sofa="6" members="1 20 25 31"/>
+</xmi:XMI>

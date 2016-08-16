@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="496" language="fr"/>
+    <octroy:Amount xmi:id="20" sofa="6" begin="176" end="184" dollarValue="0.0"/>
+    <octroy:Company xmi:id="25" sofa="6" begin="187" end="225"/>
+    <octroy:Reason xmi:id="31" sofa="6" begin="234" end="278"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="Subvention - Soutien financier avec convention&#10;&#10;CE           Développement et des opérations , Direction de la diversité sociale - 1115066001&#10;&#10;Accorder un soutien financier de 45 194 $ à Comité Jeunesse de Notre-Dame-de-Grâce afin de réaliser&#10;le projet de Camp de jour Singerman, dans le cadre de l'Entente entre la Ville de Montréal et le ministère&#10;de l'Emploi et de la Solidarité sociale (MESS) de lutte contre la pauvreté et l'exclusion sociale / Approuver&#10;le projet de convention à cet effet&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#5306"/>
+    <cas:View sofa="6" members="1 20 25 31"/>
+</xmi:XMI>

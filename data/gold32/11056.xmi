@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="500" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="97" end="112"/>
+    <octroy:Company xmi:id="26" sofa="6" begin="229" end="244"/>
+    <octroy:Amount xmi:id="32" sofa="6" begin="259" end="265" dollarValue="0.0"/>
+    <octroy:Reason xmi:id="37" sofa="6" begin="315" end="432"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2010/6476&#10;&#10;CONTRAT – SOUMISSION «9828»&#10;L'ÉCHO DE LAVAL&#10;&#10;RÉSOLU À L'UNANIMITÉ:&#10;que, dans le cadre de l'appel d'offres numéro «9828», la&#10;soumission déposée par la compagnie L'Écho de Laval au&#10;montant de 0,55 $ la ligne agate, plus les taxes applicables, pour&#10;la publication de deux (2) avis publics similaires concernant la&#10;vente pour non-paiement de taxes du 18 novembre 2010 soit et,&#10;par la présente, est acceptée.&#10;(C/T: 1172678)&#10;(Réf: 2-19)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#11056"/>
+    <cas:View sofa="6" members="1 20 26 32 37"/>
+</xmi:XMI>
