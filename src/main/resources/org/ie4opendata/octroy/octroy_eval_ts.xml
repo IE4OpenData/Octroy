@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>Octroy Eval</name>
+  <description/>
+  <version>1.0</version>
+  <vendor/>
+  <types>
+		<typeDescription>
+			<name>org.ie4opendata.octroy.DocumentAnnotation</name>
+			<description>General annotations on the document.</description>
+			<supertypeName>uima.tcas.Annotation</supertypeName>
+			<features>
+				<featureDescription>
+					<name>documentName</name>
+					<description>Name of the document</description>
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>process</name>
+					<description>Whether to further process the CAS</description>
+					<rangeTypeName>uima.cas.Boolean</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>classified</name>
+					<description>Whether the CAS has been classified</description>
+					<rangeTypeName>uima.cas.Boolean</rangeTypeName>
+				</featureDescription>
+			</features>
+		</typeDescription>
+		<typeDescription>
+			<name>org.ie4opendata.octroy.Amount</name>
+			<description>Dollar amount of the contract.</description>
+			<supertypeName>uima.tcas.Annotation</supertypeName>
+			<features>
+				<featureDescription>
+					<name>dollarValue</name>
+					<description>Dollar amount represented by the text under the
+						annotation</description>
+					<rangeTypeName>uima.cas.Float</rangeTypeName>
+				</featureDescription>
+			</features>
+		</typeDescription>
+		<typeDescription>
+			<name>org.ie4opendata.octroy.Company</name>
+			<description>Company name.</description>
+			<supertypeName>uima.tcas.Annotation</supertypeName>
+			<features>
+				<featureDescription>
+					<name>registrationNumber</name>
+					<description>NEQ Number, if known</description>
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>officialName</name>
+					<description>Standardized name</description>
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+			</features>
+		</typeDescription>
+		<typeDescription>
+			<name>org.ie4opendata.octroy.Reason</name>
+			<description>Reason a company was given a contract.</description>
+			<supertypeName>uima.tcas.Annotation</supertypeName>
+			</typeDescription>
+		<typeDescription>
+			<name>org.ie4opendata.octroy.Token</name>
+			<description/>
+			<supertypeName>uima.tcas.Annotation</supertypeName>
+			<features>
+				<featureDescription>
+					<name>entityType</name>
+					<description>Entity Type (used by ClearTk)</description>
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+			</features>
+		</typeDescription>
+		<typeDescription>
+			<name>org.ie4opendata.octroy.Sentence</name>
+			<description/>
+			<supertypeName>uima.tcas.Annotation</supertypeName>
+			</typeDescription>
+    <typeDescription>
+      <name>org.apache.uima.ruta.type.FalsePositive</name>
+      <description/>
+      <supertypeName>org.apache.uima.ruta.type.EvalAnnotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>org.apache.uima.ruta.type.EvalAnnotation</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>original</name>
+          <description/>
+          <rangeTypeName>uima.tcas.Annotation</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>org.apache.uima.ruta.type.FalseNegative</name>
+      <description/>
+      <supertypeName>org.apache.uima.ruta.type.EvalAnnotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>org.apache.uima.ruta.type.TruePositive</name>
+      <description/>
+      <supertypeName>org.apache.uima.ruta.type.EvalAnnotation</supertypeName>
+    </typeDescription>
+  </types>
+</typeSystemDescription>
