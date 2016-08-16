@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="397" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="295" end="316"/>
+    <octroy:Amount xmi:id="26" sofa="6" begin="363" end="372" dollarValue="0.0"/>
+    <octroy:Reason xmi:id="31" sofa="6" begin="169" end="253"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="Contrat d'approvisionnement et de services autres que professionnels&#10;&#10;CE           Police , Direction de l'administration - 1062628004&#10;&#10;Autoriser l'octroi du contrat de fourniture et d'installation d'un ensemble de surveillance et&#10;d'enregistrement vidéo au soummisionnaire retenu, soit la firme Inter-Cité Vidéo inc., dans le cadre de&#10;l'appel d'offres 06-10149 - 210 082 $ - (11 soumissionnaires)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#538"/>
+    <cas:View sofa="6" members="1 20 26 31"/>
+</xmi:XMI>

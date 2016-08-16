@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="241" language="fr"/>
+    <octroy:Amount xmi:id="20" sofa="6" begin="155" end="164" dollarValue="0.0"/>
+    <octroy:Reason xmi:id="25" sofa="6" begin="141" end="151"/>
+    <octroy:Company xmi:id="29" sofa="6" begin="182" end="211"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2008/2153&#10;&#10;SUBVENTION – CORPORATION DU MONDIAL CHORAL&#10;RÉSOLU À L'UNANIMITÉ:&#10;qu'une subvention de 125 000 $ soit versée à la Corporation du&#10;Mondial Choral.&#10;(C/T: 1076894)&#10;(Réf: 26-48)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#23944"/>
+    <cas:View sofa="6" members="1 20 25 29"/>
+</xmi:XMI>

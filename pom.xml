@@ -60,7 +60,7 @@
       <groupId>org.cleartk</groupId>
       <artifactId>cleartk-snowball</artifactId>
       <version>${cleartk.version}</version>
-    </dependency>    
+    </dependency>
     <dependency>
       <groupId>org.apache.uima</groupId>
       <artifactId>uimaj-examples</artifactId>
@@ -159,10 +159,10 @@
 	<configuration>
 	  <!-- Set the target configuration directory to be used in the bin scripts -->
 	  <configurationDirectory>conf</configurationDirectory>
-	  <!-- Copy the contents from "/src/main/config" to the target configuration 
+	  <!-- Copy the contents from "/src/main/config" to the target configuration
 	       directory in the assembled application -->
 	  <copyConfigurationDirectory>true</copyConfigurationDirectory>
-	  <!-- Include the target configuration directory in the beginning of 
+	  <!-- Include the target configuration directory in the beginning of
 	       the classpath declaration in the bin scripts -->
 	  <includeConfigurationDirectoryInClasspath>true</includeConfigurationDirectoryInClasspath>
 	  <!-- Extra JVM arguments that will be included in the bin scripts -->
@@ -198,6 +198,16 @@
 	      <commandLineArguments/>
 	    </program>
 	    <program>
+	      <mainClass>org.ie4opendata.octroy.apps.ReasonTrainer</mainClass>
+	      <id>reason-trainer</id>
+	      <commandLineArguments/>
+	    </program>
+	    <program>
+	      <mainClass>org.ie4opendata.octroy.apps.TextToXmi</mainClass>
+	      <id>texts-to-xmis</id>
+	      <commandLineArguments/>
+	    </program>
+	    <program>
 	      <mainClass>opennlp.tools.cmdline.CLI</mainClass>
 	      <id>company-trainer</id>
 	      <commandLineArguments>
@@ -209,6 +219,14 @@
 		<commandLineArgument>-encoding</commandLineArgument>
 		<commandLineArgument>UTF-8</commandLineArgument>
 		<commandLineArgument>-data</commandLineArgument>
+	      </commandLineArguments>
+	    </program>
+			<program>
+	      <mainClass>opennlp.tools.cmdline.CLI</mainClass>
+	      <id>sentence-detection</id>
+	      <commandLineArguments>
+                <commandLineArgument>SentenceDetector</commandLineArgument>
+								<commandLineArgument>src/main/resources/org/ie4opendata/octroy/en-sent.bin</commandLineArgument>
 	      </commandLineArguments>
 	    </program>
 	   </programs>

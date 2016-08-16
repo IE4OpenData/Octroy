@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="876" language="fr"/>
+    <octroy:Company xmi:id="20" sofa="6" begin="217" end="245"/>
+    <octroy:Amount xmi:id="26" sofa="6" begin="622" end="633" dollarValue="0.0"/>
+    <octroy:Reason xmi:id="31" sofa="6" begin="257" end="474"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2011/4460&#10;&#10;CONTRAT - SOUMISSION «OS-ING/2011-041»&#10;ÉQUATION GROUPE CONSEIL INC.&#10;&#10;RÉSOLU À L'UNANIMITÉ:&#10;que la soumission «OS-ING/2011-041» déposée par la firme&#10;Équation groupe conseil inc. concernant les services&#10;professionnels d'ingénieurs-conseils pour la préparation des plans&#10;et devis ainsi que pour les services durant la construction des&#10;travaux d'aménagement d'un terrain de tennis double au parc des&#10;Nénuphars, prévus au règlement L-11796, soit acceptée et qu'à&#10;cette fin, la firme susdite prépare les plans, devis et documents de&#10;soumissions au montant de 31 317,07 $;&#10;que les honoraires soient calculés conformément aux dispositions&#10;de la soumission «OS-ING/2011-041»;&#10;que le Greffier ou la Greffière adjointe retourne les garanties qui&#10;accompagnaient les soumissions non retenues.&#10;(C/T: 1207248)&#10;(Réf: 12-2)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#10985"/>
+    <cas:View sofa="6" members="1 20 26 31"/>
+</xmi:XMI>

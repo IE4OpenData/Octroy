@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="716" language="fr"/>
+    <octroy:Amount xmi:id="20" sofa="6" begin="236" end="245" dollarValue="0.0"/>
+    <octroy:Company xmi:id="25" sofa="6" begin="262" end="281"/>
+    <octroy:Reason xmi:id="31" sofa="6" begin="303" end="658"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;&#10;CE-2011/2955&#10;&#10;APPROBATION– PLANS, ESTIMATION PRÉLIMINAIRE ET&#10;CÉDULE «A»– RÈGLEMENT L-11753&#10;&#10;RÉSOLU À L'UNANIMITÉ:&#10;que les plans, estimation préliminaire et cédule «A» au montant&#10;de 372 900 $ préparés par le Groupe IBI/DAA inc. le 30 mars&#10;2011 pour les travaux d'amélioration du cadre de vie et de&#10;réduction des îlots de chaleur par des interventions paysagères sur&#10;le boulevard Notre-Dame, entre l'autoroute Chomedey (A-13) et le&#10;boulevard Chomedey, ainsi que sur le boulevard Samson, entre&#10;l'autoroute Chomedey (A-13) et le boulevard Curé-Labelle, phase&#10;II, prévus au projet de règlement numéro L-11753, soient et, par&#10;la présente, sont approuvés.&#10;(Réf: 10-1)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#11682"/>
+    <cas:View sofa="6" members="1 20 25 31"/>
+</xmi:XMI>

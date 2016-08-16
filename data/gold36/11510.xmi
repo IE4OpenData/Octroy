@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="284" language="fr"/>
+    <octroy:Company xmi:id="24" sofa="6" begin="156" end="171"/>
+    <octroy:Reason xmi:id="30" sofa="6" begin="179" end="256"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="_____________________________________________________&#10;CE-2011/3291&#10;&#10;SUIVI ENVIRONNEMENTAL – PARC DE VALOGNES&#10;&#10;RÉSOLU À L'UNANIMITÉ:&#10;de mandater la firme de laboratoire LVM afin d'effectuer des&#10;mesures de concentration de gaz à proximité du parc de Valognes.&#10;(C/T: 1202767)&#10;(Réf: 7-3)&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#11510"/>
+    <cas:View sofa="6" members="1 24 30"/>
+</xmi:XMI>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:octroy="http:///org/ie4opendata/octroy.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="605" language="fr"/>
+    <octroy:Amount xmi:id="20" sofa="6" begin="190" end="198" dollarValue="0.0"/>
+    <octroy:Company xmi:id="25" sofa="6" begin="201" end="249"/>
+    <octroy:Reason xmi:id="31" sofa="6" begin="255" end="556"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text/plain" sofaString="Subvention - Soutien financier avec convention&#10;&#10;CM           Développement et des opérations , Direction de la diversité sociale - 1111375005&#10;&#10;Accorder un soutien financier non récurrent de 52 500 $ à Regroupement des organismes du Montréal&#10;ethnique pour le logement, pour la période du 1er avril 2011 au 31 décembre 2012, dans le cadre de&#10;l'Entente triennale entre la Ville de Montréal et le ministère de l'Immigration et des Communautés&#10;culturelles (MICC), pour la réalisation du projet « Intégration des nouveaux arrivants et responsabilité&#10;collective » / approuver le projet de convention à cet effet&#10;"/>
+    <cas:Sofa xmi:id="13" sofaNum="2" sofaID="UriView" sofaURI="http://ie4opendata.org/octoroy#4625"/>
+    <cas:View sofa="6" members="1 20 25 31"/>
+</xmi:XMI>
