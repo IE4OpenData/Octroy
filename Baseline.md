@@ -23,3 +23,17 @@ If you want to see the errors file by file, use the --csv option. If you want to
 
 If you want to see only the aggregate numbers for a particular type using --include for only that type.
 
+For example:
+
+```
+$ for t in Amount Company Reason; \
+  do for s in 36 32; \
+    do echo $t $s; \
+    /path/to/ruta_testing_standalone/target/appassembler/bin/ruta-evaluate \
+      --gold data/gold$s --eval data/baseline$s \
+      --include org.ie4opendata.octroy.$t \
+      --typesystem ./src/main/resources/org/ie4opendata/octroy/octroy_eval_ts.xml; \
+    done; 
+  done
+```
+
