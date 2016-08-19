@@ -67,6 +67,18 @@ $ ./target/appassembler/bin/company-trainer ./data/company.training36
 
 (output goes to src/main/resources/org/ie4opendata/octroy/fr-ner-company.bin)
 
+## Train the company identifier from already annotated XMIs
+
+$ ./target/appassembler/bin/opennlp-trainer-extractor ./data/gold36 ./data/company.training36
+
+(the training file will contain the <START:company> and <END> tags already)
+
+then follow with the company-trainer as described above.
+
+Notice that changing the sentence boundary detector or the tokenizer will not require 
+re-annotating in this case (just modifying the program to use a different descriptor).
+
+
 ## Annotate documents for evaluation with Apache RuTA and training with ClearTk
 
 $ ./target/appassembler/bin/texts-to-xmis docs/dev36 data/gold36

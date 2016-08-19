@@ -198,6 +198,11 @@
 	      <commandLineArguments/>
 	    </program>
 	    <program>
+	      <mainClass>org.ie4opendata.octroy.apps.XmiToOpenNlpTrainer</mainClass>
+	      <id>xmi-to-opennlp-trainer</id>
+	      <commandLineArguments/>
+	    </program>
+	    <program>
 	      <mainClass>org.ie4opendata.octroy.apps.ReasonTrainer</mainClass>
 	      <id>reason-trainer</id>
 	      <commandLineArguments/>

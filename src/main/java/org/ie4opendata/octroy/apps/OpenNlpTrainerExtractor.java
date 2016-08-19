@@ -56,7 +56,6 @@ public class OpenNlpTrainerExtractor {
 			cas.setDocumentText(doc.toString());
 			cas.setDocumentLanguage("fr");
 
-			// document annotation goes into the (empty) initial view
 			DocumentAnnotation documentAnnotation = new DocumentAnnotation(cas.getJCas());
 			documentAnnotation.setDocumentName(file.getName());
 			documentAnnotation.setClassified(false);
