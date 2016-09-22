@@ -69,7 +69,7 @@ $ ./target/appassembler/bin/company-trainer ./data/company.training36
 
 ## Train the company identifier from already annotated XMIs
 
-$ ./target/appassembler/bin/opennlp-trainer-extractor ./data/gold36 ./data/company.training36
+$ ./target/appassembler/bin/xmi-to-opennlp-trainer ./data/gold36 ./data/company.training36
 
 (the training file will contain the <START:company> and <END> tags already)
 
