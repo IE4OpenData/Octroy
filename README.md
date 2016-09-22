@@ -34,13 +34,7 @@ $ mvn package appassembler:assemble
 
 # Execute
 
-## Train the contract classifier model
-
-$ ./target/appassembler/bin/contract-trainer data/contract.training36
-
-(output goes to src/main/resources/org/ie4opendata/octroy/contract-doccat.bin)
-
-## Analyze documents
+## Analyze documents (batch)
 
 $ ./target/appassembler/bin/document-analyzer
 
@@ -52,6 +46,27 @@ set the language to French
 Press run or interactive
 
 Serialized CASes with the results will be in output
+
+## Analyze documents (interactive)
+
+$ ./target/appassembler/bin/document-analyzer
+
+set input folder to docs/dev100
+set output folder to output
+set the analysis engine XML descriptor to run to src/main/resources/org/ie4opendata/octroy/OctroyEngine.xml
+set the language to French
+
+Press run or interactive
+
+Serialized CASes with the results will be in output folder
+
+# Train
+
+## Train the contract classifier model
+
+$ ./target/appassembler/bin/contract-trainer data/contract.training36
+
+(output goes to src/main/resources/org/ie4opendata/octroy/contract-doccat.bin)
 
 ## Train the company identifier
 
@@ -78,7 +93,6 @@ then follow with the company-trainer as described above.
 Notice that changing the sentence boundary detector or the tokenizer will not require 
 re-annotating in this case (just modifying the program to use a different descriptor).
 
-
 ## Annotate documents for evaluation with Apache RuTA and training with ClearTk
 
 $ ./target/appassembler/bin/texts-to-xmis docs/dev36 data/gold36
@@ -96,8 +110,4 @@ click with the right button and under "show annotations" select Reason, Amount a
 
 then use the cursor keys plus shift to select the span of the annotation to annotate, 
 press shift+enter and select the annotation from the menu (or use the quick key).
-
-
-
-
 

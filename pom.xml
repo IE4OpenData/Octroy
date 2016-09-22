@@ -179,6 +179,10 @@
 	      <commandLineArguments/>
 	    </program>
 	    <program>
+	      <mainClass>org.ie4opendata.octroy.apps.TextToTsv</mainClass>
+	      <id>run-pipeline</id>
+	      <commandLineArguments/>
+	    </program>	    <program>
 	      <mainClass>opennlp.tools.cmdline.CLI</mainClass>
 	      <id>contract-trainer</id>
 	      <commandLineArguments>
