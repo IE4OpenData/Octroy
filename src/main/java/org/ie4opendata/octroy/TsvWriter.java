@@ -120,9 +120,9 @@ public class TsvWriter extends JCasAnnotator_ImplBase {
 
   private void printAnnotation(PrintWriter pw, Annotation ann) throws IOException {
     if (ann == null)
-      pw.println("\t\t\t");
+      pw.print("\t\t\t");
     else
-      pw.print("\t" + ann.getCoveredText().replaceAll("\n", "\\n") + "\t" + ann.getBegin() + "\t"
-              + ann.getEnd());
+      pw.print("\t" + ann.getCoveredText().replaceAll("\n", " ").replaceAll("\t", " ").trim() + "\t"
+              + ann.getBegin() + "\t" + ann.getEnd());
   }
 }
