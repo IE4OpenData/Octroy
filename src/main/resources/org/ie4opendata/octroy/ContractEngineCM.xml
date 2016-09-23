@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Licensed under APL-2.0 -->
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+	<frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+	<primitive>false</primitive>
+
+	<delegateAnalysisEngineSpecifiers>
+	  <delegateAnalysisEngine key="SimpleFrenchTokenAndSentenceAnnotator">
+	    <import name="org.ie4opendata.octroy.SimpleFrenchTokenAndSentenceAnnotator"/>
+	  </delegateAnalysisEngine>
+
+	  <delegateAnalysisEngine key="NeqConceptMapper">
+	    <import name="org.ie4opendata.octroy.NeqConceptMapper"/>
+	  </delegateAnalysisEngine>
+	  
+	  <delegateAnalysisEngine key="AmountAnnotator">
+	    <import name="org.ie4opendata.octroy.AmountAnnotator"/>
+	  </delegateAnalysisEngine>
+	  
+  </delegateAnalysisEngineSpecifiers>
+
+	<analysisEngineMetaData>
+	  <name>ContractEngine</name>
+	  <description/>
+	  <version>${pom.version}</version>
+	  <vendor>IE4OpenData</vendor>
+	  <configurationParameters/>
+	  <configurationParameterSettings/>
+	  <flowConstraints>
+	    <fixedFlow>
+	      <node>SimpleFrenchTokenAndSentenceAnnotator</node>
+	      <node>NeqConceptMapper</node>
+	      <node>AmountAnnotator</node>
+      </fixedFlow>
+	  </flowConstraints>
+	  <capabilities>
+	    <capability>
+	      <inputs>
+		<type>org.ie4opendata.octroy.DocumentAnnotation</type>
+		<feature>org.ie4opendata.octroy.DocumentAnnotation:process</feature>
+		<feature>org.ie4opendata.octroy.DocumentAnnotation:classified</feature>
+	      </inputs>
+	      <outputs>
+		<type>org.ie4opendata.octroy.Sentence</type>
+		<type>org.ie4opendata.octroy.Token</type>
+		<type allAnnotatorFeatures="true">org.ie4opendata.octroy.Company</type>
+		<type>org.ie4opendata.octroy.Amount</type>
+		<feature>org.ie4opendata.octroy.Amount:dollarValue</feature>
+	      </outputs>
+	      <languagesSupported>
+		<language>fr</language>
+	      </languagesSupported>
+	    </capability>
+	  </capabilities>
+	  <operationalProperties>
+	    <modifiesCas>true</modifiesCas>
+	    <multipleDeploymentAllowed>false</multipleDeploymentAllowed>
+	    <outputsNewCASes>false</outputsNewCASes>
+	  </operationalProperties>
+	</analysisEngineMetaData>
+	
+	<resourceManagerConfiguration/>
+</analysisEngineDescription>

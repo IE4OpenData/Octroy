@@ -10,7 +10,7 @@
     </delegateAnalysisEngine>
 
     <delegateAnalysisEngine key="ContractEngine">
-      <import name="org.ie4opendata.octroy.ContractEngine"/>
+      <import name="org.ie4opendata.octroy.ContractEngineOpenNLP"/>
     </delegateAnalysisEngine>
   </delegateAnalysisEngineSpecifiers>
 

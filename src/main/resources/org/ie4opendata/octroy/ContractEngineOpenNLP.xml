@@ -8,10 +8,6 @@
 	  <delegateAnalysisEngine key="SimpleFrenchTokenAndSentenceAnnotator">
 	    <import name="org.ie4opendata.octroy.SimpleFrenchTokenAndSentenceAnnotator"/>
 	  </delegateAnalysisEngine>
-
-	  <delegateAnalysisEngine key="NeqConceptMapper">
-	    <import name="org.ie4opendata.octroy.NeqConceptMapper"/>
-	  </delegateAnalysisEngine>
 	  
 	  <delegateAnalysisEngine key="AmountAnnotator">
 	    <import name="org.ie4opendata.octroy.AmountAnnotator"/>
@@ -32,7 +28,6 @@
 	  <flowConstraints>
 	    <fixedFlow>
 	      <node>SimpleFrenchTokenAndSentenceAnnotator</node>
-	      <node>NeqConceptMapper</node>
 	      <node>AmountAnnotator</node>
 	    <node>CompanyNameFinder</node>
       </fixedFlow>
