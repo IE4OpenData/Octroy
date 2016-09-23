@@ -14,42 +14,69 @@ The dictionary file is 62Mb compressed and contains 3.6M variants for enterprise
 
 (if you want the dictionary to be someplace else, edit ./src/main/resources/org/ie4opendata/octroy/NeqConceptMapper.xml)
 
+```
 $ git clone https://github.com/IE4OpenData/Octroy
 $ cd Octroy
 $ wget http://duboue.net/download/neq_dict.xml.gz
 $ gzip -d neq_dict.xml.gz
 $ mv neq_dict.xml /tmp
+```
 
 if you want to use a dummy dictionary instead:
 
+```
 $ cp ./src/main/resources/org/ie4opendata/octroy/neq_dict_dummy.xml /tmp/neq_dict.xml
+```
 
 # Build
 
+```
 $ mvn compile
+```
 
 (will download plenty of dependencies...)
 
+```
 $ mvn package appassembler:assemble
+```
 
 # Execute
 
+After having successfully build (see above):
+
 ## Analyze documents (batch)
 
-$ ./target/appassembler/bin/document-analyzer
+You might need to set-up JAVA_OPTS to 6G heap:
 
-set input folder to docs/dev100
-set output folder to output
-set the analysis engine XML descriptor to run to src/main/resources/org/ie4opendata/octroy/OctroyEngine.xml
-set the language to French
+```
+$ export JAVA_OPTS=-Xmx6G
+```
 
-Press run or interactive
+Tab delimited output:
 
-Serialized CASes with the results will be in output
+```
+$ ./target/appassembler/bin/run-pipeline-tsv org/ie4opendata/octroy/OctroyEngine.xml ./docs/dev36 dev36.tsv
+```
+
+XMI output:
+
+```
+$ ./target/appassembler/bin/run-pipeline-xmi org/ie4opendata/octroy/OctroyEngine.xml ./docs/dev36 /tmp/dev36/
+```
+
+Then evaluate the XMIs with
+
+```
+/path/to/ruta_testing/target/appassembler/bin/ruta-evaluate --gold data/gold36 --eval /tmp/dev36 \
+  --include org.ie4opendata.octroy.Company  \
+  --typesystem ./src/main/resources/org/ie4opendata/octroy/octroy_eval_ts.xml
+``
 
 ## Analyze documents (interactive)
 
+```
 $ ./target/appassembler/bin/document-analyzer
+```
 
 set input folder to docs/dev100
 set output folder to output
@@ -64,7 +91,9 @@ Serialized CASes with the results will be in output folder
 
 ## Train the contract classifier model
 
+```
 $ ./target/appassembler/bin/contract-trainer data/contract.training36
+```
 
 (output goes to src/main/resources/org/ie4opendata/octroy/contract-doccat.bin)
 
@@ -74,17 +103,23 @@ see https://opennlp.apache.org/documentation/1.6.0/manual/opennlp.html#tools.nam
 
 Extract the training file
 
+```
 $ ./target/appassembler/bin/opennlp-trainer-extractor ./docs/dev36 ./data/company.training36
+```
 
 (annotate the training file, add ' ' <START:company> ' ' and ' ' <END> ' ' around each company instance)
 
+```
 $ ./target/appassembler/bin/company-trainer ./data/company.training36
+```
 
 (output goes to src/main/resources/org/ie4opendata/octroy/fr-ner-company.bin)
 
 ## Train the company identifier from already annotated XMIs
 
+```
 $ ./target/appassembler/bin/xmi-to-opennlp-trainer ./data/gold36 ./data/company.training36
+```
 
 (the training file will contain the <START:company> and <END> tags already)
 
@@ -95,11 +130,15 @@ re-annotating in this case (just modifying the program to use a different descri
 
 ## Annotate documents for evaluation with Apache RuTA and training with ClearTk
 
+```
 $ ./target/appassembler/bin/texts-to-xmis docs/dev36 data/gold36
+```
 
 then copy the typesystem to a place the Eclipse UIMA plugins can find it easily: 
 
+```
 $ cp ./src/main/resources/org/ie4opendata/octroy/octroy_types.xml ./TypeSystem.xml
+```
 
 (do not commit this file)
 
