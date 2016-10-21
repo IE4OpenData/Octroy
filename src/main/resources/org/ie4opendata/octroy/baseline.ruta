@@ -1,0 +1,26 @@
+PACKAGE org.ie4opendata.octroy;
+
+TYPESYSTEM org.ie4opendata.octroy.octroy_types;
+
+WORDLIST CompanyTrailingList = 'org/ie4opendata/octroy/company_trailings.txt';
+
+DECLARE MainSection;
+DECLARE BaselineCompanyTrailing;
+
+"RÉSOLU" "À" "L" "'" "UNANIMITÉ" ":" ANY+{->MARK(MainSection)};
+
+BLOCK(RelevantText) MainSection{} { 
+
+NUM? {REGEXP("\\d\\d")} PERIOD? 
+  NUM {REGEXP("\\d{3}")} PERIOD? 
+  NUM? {REGEXP("\\d{3}")} (COMMA NUM {REGEXP("\\d{2}")})? "$" {->MARK(Amount,1,7)};
+
+  Document{-> MARKFAST(BaselineCompanyTrailing, CompanyTrailingList)};
+  
+  CW+ BaselineCompanyTrailing{-CONTAINS(Company) -> MARK(Company, 1, 2)};
+
+  ( ("la" "firme") | "à" | ("par" "le") | ("la" "compagnie") ) W+{-CONTAINS(BaselineCompanyTrailing), -CONTAINS(Company)} BaselineCompanyTrailing{-> MARK(Company, 2, 3)};
+  
+  (("du" "contrat" "de")|("requis" "pour")|("concernant")|(Amount "pour")| (Company "pour")) ANY[2, 100]{-REGEXP("[.,;:]") -> MARK(Reason)};
+  
+}

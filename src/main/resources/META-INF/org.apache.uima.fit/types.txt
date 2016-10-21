@@ -1,2 +1,5 @@
 classpath*:org/ie4opendata/octroy/octroy_types.xml
+classpath*:org/ie4opendata/octroy/baselineRutaTypeSystem.xml
 classpath*:org/ie4opendata/octroy/ReasonTypeSystem.xml
+classpath*:BasicTypeSystem.xml
+classpath*:InternalTypeSystem.xml
