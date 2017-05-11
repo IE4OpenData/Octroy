@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Licensed under APL-2.0 -->
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>false</primitive>
+  
+  <delegateAnalysisEngineSpecifiers>
+    <delegateAnalysisEngine key="ContractClassifier">
+      <import name="org.ie4opendata.octroy.ContractClassifier"/>
+    </delegateAnalysisEngine>
+
+    <delegateAnalysisEngine key="ContractEngine">
+      <import name="org.ie4opendata.octroy.ContractEngine"/>
+    </delegateAnalysisEngine>
+  </delegateAnalysisEngineSpecifiers>
+
+  <flowController>
+    <import name="org.ie4opendata.octroy.ContractFlowController"/>
+  </flowController>
+  <analysisEngineMetaData>
+    <name>OctroyEngine</name>
+    <description/>
+    <version>${pom.version}</version>
+    <vendor>IE4OpenData</vendor>
+    <configurationParameters/>
+    <configurationParameterSettings/>
+    <capabilities>
+      <capability>
+	<inputs/>
+	<outputs>
+	  <type>org.ie4opendata.octroy.DocumentAnnotation</type>
+	  <feature>org.ie4opendata.octroy.DocumentAnnotation:process</feature>
+	  <type>org.ie4opendata.octroy.Amount</type>
+	  <feature>org.ie4opendata.octroy.Amount:dollarValue</feature>
+	  <type>org.ie4opendata.octroy.Sentence</type>
+	  <type>org.ie4opendata.octroy.Token</type>
+	  <type>org.ie4opendata.octroy.Company</type>
+	</outputs>
+	<languagesSupported>
+	  <language>fr</language>
+	</languagesSupported>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>false</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>
