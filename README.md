@@ -55,8 +55,10 @@ $ export JAVA_OPTS=-Xmx6G
 Tab delimited output:
 
 ```
-$ ./target/appassembler/bin/run-pipeline-tsv org/ie4opendata/octroy/OctroyEngine.xml ./docs/dev36 dev36.tsv
+$ ./target/appassembler/bin/run-pipeline-tsv org/ie4opendata/octroy/OctroyEngineCM.xml ./docs/dev36 dev36.tsv
 ```
+
+(or OctroyEngineOpenNLP.xml)
 
 XMI output:
 
