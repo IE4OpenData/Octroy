@@ -18,6 +18,7 @@ public class CompanyMerger extends JCasAnnotator_ImplBase {
 		// find companies with NEQ and put their starts and end in tables
 		Map<Integer, List<Company>> neqStarts = new HashMap<>();
 		Map<Integer, List<Company>> neqEnds = new HashMap<>();
+		List<Company> toDelete = new ArrayList<>();
 		List<Company> mlCompanies = new ArrayList<>();
 
 		for (Company company : JCasUtil.select(aJCas, Company.class))
@@ -30,7 +31,7 @@ public class CompanyMerger extends JCasAnnotator_ImplBase {
 					neqEnds.put(end, new ArrayList<Company>());
 				neqStarts.get(begin).add(company);
 				neqEnds.get(end).add(company);
-				company.removeFromIndexes();
+				toDelete.add(company);
 			} else
 				mlCompanies.add(company);
 		for (Company company : mlCompanies) {
@@ -50,5 +51,8 @@ public class CompanyMerger extends JCasAnnotator_ImplBase {
 				company.setOfficialName(other.getOfficialName());
 			}
 		}
+		for (Company company : toDelete)
+			company.removeFromIndexes();
+
 	}
 }
