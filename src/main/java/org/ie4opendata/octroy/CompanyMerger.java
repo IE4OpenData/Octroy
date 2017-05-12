@@ -43,7 +43,7 @@ public class CompanyMerger extends JCasAnnotator_ImplBase {
 					if (other == null || other.getCoveredText().length() < startsThere.getCoveredText().length())
 						other = startsThere;
 			if (neqEnds.containsKey(end))
-				for (Company endsThere : neqStarts.get(end))
+				for (Company endsThere : neqEnds.get(end))
 					if (other == null || other.getCoveredText().length() < endsThere.getCoveredText().length())
 						other = endsThere;
 			if (other != null) {
