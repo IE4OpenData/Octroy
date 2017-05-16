@@ -72,6 +72,12 @@ Then evaluate the XMIs with
   --typesystem ./src/main/resources/org/ie4opendata/octroy/octroy_eval_ts.xml
 ``
 
+RuTA Baseline:
+
+```
+./target/appassembler/bin/run-pipeline-tsv org/ie4opendata/octroy/baselineRutaEngine.xml ./docs/dev36 dev36-ruta-baseline.tsv
+```
+
 ## Analyze documents (interactive)
 
 ```
