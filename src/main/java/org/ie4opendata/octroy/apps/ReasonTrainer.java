@@ -27,15 +27,16 @@ public class ReasonTrainer {
 		builder.add(UIMAFramework.getXMLParser().parseAnalysisEngineDescription(
 				new XMLInputSource("src/main/resources/org/ie4opendata/octroy/SimpleFrenchTokenAndSentenceAnnotator.xml")));
 
+		// Use this to get the parameters for the descriptor
+		//System.out.println(ReasonAnnotator.getClassifierDescription("org/ie4opendata/octroy/reason/model.jar"));
+		//System.exit(0);
 		// The reason classifier annotator, configured to write training data
 		builder.add(ReasonAnnotator.getWriterDescription("src/main/resources/org/ie4opendata/octroy/reason"));
 
-		// Run the pipeline of annotators on each of the CASes produced by the
-		// reader
+		// Run the pipeline of annotators on each of the CASes produced by the reader
 		SimplePipeline.runPipeline(reader, builder.createAggregateDescription());
 
-		// Train a classifier on the training data, and package it into a .jar
-		// file
+		// Train a classifier on the training data, and package it into a .jar file
 		Train.main("src/main/resources/org/ie4opendata/octroy/reason");
 	}
 }
