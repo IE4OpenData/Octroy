@@ -56,10 +56,8 @@ public class ReasonAnnotator extends CleartkSequenceAnnotator<String> {
 		this.contextExtractor = new CleartkExtractor<Token, Token>(Token.class, this.extractor, new Preceding(3),
 				new Following(3));
 
-		// the chunking definition: Tokens will be combined to form Reason
-		// annotation, with labels from the "entityType" attribute so that we
-		// get B-location, I-person, etc.
-		this.chunking = new BioChunking<Token, Reason>(Token.class, Reason.class, "entityType");
+		// the chunking definition: Tokens will be combined to form Reason annotation
+		this.chunking = new BioChunking<Token, Reason>(Token.class, Reason.class, null);
 	}
 
 	@Override

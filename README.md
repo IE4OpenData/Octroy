@@ -158,3 +158,13 @@ click with the right button and under "show annotations" select Reason, Amount a
 then use the cursor keys plus shift to select the span of the annotation to annotate, 
 press shift+enter and select the annotation from the menu (or use the quick key).
 
+## Train the CRF Reason identifier
+
+```
+./target/appassembler/bin/reason-trainer ./data/gold36
+```
+
+Output goes to
+src/main/resources/org/ie4opendata/octroy/reason/model.jar, other
+files in that folder contain the Mallet train data (do not commit
+them).

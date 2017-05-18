@@ -55,17 +55,31 @@
       <nameValuePair>
         <name>classifierJarPath</name>
         <value>
-          <string>org/ie4opendata/octroy/reason/model.jar</string>
+          <string>/org/ie4opendata/octroy/reason/model.jar</string>
         </value>
       </nameValuePair>
     </configurationParameterSettings>
-    <typeSystemDescription/>
+    <typeSystemDescription>
+      <imports>
+        <import name="org.ie4opendata.octroy.octroy_types"/>
+      </imports>
+    </typeSystemDescription>
     <typePriorities/>
     <fsIndexCollection/>
     <capabilities>
       <capability>
-        <inputs/>
-        <outputs/>
+        <inputs>
+          <type allAnnotatorFeatures="true">org.ie4opendata.octroy.Token</type>
+          <type allAnnotatorFeatures="true">org.ie4opendata.octroy.Sentence</type>
+          <type allAnnotatorFeatures="true">org.ie4opendata.octroy.Reason</type>
+          <type allAnnotatorFeatures="true">uima.tcas.DocumentAnnotation</type>
+          <type allAnnotatorFeatures="true">org.ie4opendata.octroy.DocumentAnnotation</type>
+          <type allAnnotatorFeatures="true">org.ie4opendata.octroy.Company</type>
+          <type allAnnotatorFeatures="true">org.ie4opendata.octroy.Amount</type>
+        </inputs>
+        <outputs>
+          <type allAnnotatorFeatures="true">org.ie4opendata.octroy.Reason</type>
+        </outputs>
         <languagesSupported/>
       </capability>
     </capabilities>

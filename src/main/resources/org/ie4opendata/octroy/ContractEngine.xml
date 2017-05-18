@@ -26,6 +26,12 @@
 	  
     
     </delegateAnalysisEngine>
+  <delegateAnalysisEngine key="ReasonAnnotator">
+      <import name="org.ie4opendata.octroy.ReasonAnnotator"/>
+	  
+    
+    
+    </delegateAnalysisEngine>
   </delegateAnalysisEngineSpecifiers>
 
 	<analysisEngineMetaData>
@@ -42,6 +48,7 @@
 	    <node>CompanyNameFinder</node>
       <node>NeqConceptMapper</node>
         <node>CompanyMerger</node>
+      <node>ReasonAnnotator</node>
       </fixedFlow>
 	  </flowConstraints>
 	  <capabilities>
