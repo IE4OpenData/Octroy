@@ -6,13 +6,15 @@ Octroy Pipeline for Open Data in Quebec
 
 You need Java 7 and Maven 3 installed in your system.
 
-The commands below use wget to download a dictionary file but you can download it with any web browser.
+The commands below use wget to download a dictionary file but you can
+download it with any web browser.
 
 Please note: the dictionary is released under its original license CC BY-NC-SA as it was obtained from
 https://www.donneesquebec.ca/recherche/fr/dataset/registre-des-entreprises
 The dictionary file is 62Mb compressed and contains 3.6M variants for enterprise names.
 
-(if you want the dictionary to be someplace else, edit ./src/main/resources/org/ie4opendata/octroy/NeqConceptMapper.xml)
+(if you want the dictionary to be someplace else, edit
+./src/main/resources/org/ie4opendata/octroy/NeqConceptMapper.xml)
 
 ```
 $ git clone https://github.com/IE4OpenData/Octroy
@@ -168,3 +170,14 @@ Output goes to
 src/main/resources/org/ie4opendata/octroy/reason/model.jar, other
 files in that folder contain the Mallet train data (do not commit
 them).
+
+# Classroom use
+
+See [TEACHING](TEACHING.md) for classroom activies using the different branches.
+
+Courses taught using this project:
+
+* [ECI 2016](https://github.com/IE4OpenData/ECI2016T2), Buenos Aires, Argentina
+* [FaMAF 2017](https://github.com/IE4OpenData/IE4OD2017FAMAF), Cordoba, Argentina
+
+
