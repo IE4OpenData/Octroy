@@ -24,7 +24,7 @@
   <version>1.0</version>
   <vendor/>
   <imports>
-    <import location="InternalTypeSystem.xml"/>
+	  <import name="InternalTypeSystem"/>
   </imports>
   <types>
     <typeDescription>
